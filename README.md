@@ -16,4 +16,4 @@
 
 <br>
 
-<a href="https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20Join%20Our%20WhatsApp%20Channel-black" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
+<a href="https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴡʜᴀᴛsᴀᴘᴘ%20ᴄʜᴀɴɴᴇʟ-RED" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
