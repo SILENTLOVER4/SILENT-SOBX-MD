@@ -5,7 +5,7 @@
 
   <p align="center">  
   <a href="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
-    <img alt="SILENT-SOBX-MD" height="300" src="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
+    <img alt="SILENT-SOBX-MD" height="250" src="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
 
 <br>
 
