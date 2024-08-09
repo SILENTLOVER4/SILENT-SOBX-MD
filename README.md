@@ -1,2 +1,2 @@
 # SILENT-SOBX-MD
-WORLD BEST WHATSAPP BOT CREATED BY SILENTLOVER432♥️
+# ᴡᴏʀʟᴅ ʙᴇsᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ•ʟᴏᴠᴇʀ⁴³²♥️
