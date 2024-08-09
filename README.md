@@ -7,6 +7,13 @@
   <a href="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
     <img alt="SILENT-SOBX-MD" height="250" src="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
 
+</a>
+</p>
+
 <br>
 
 🥂 `ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ's ᴀɴᴅ ғɪɴᴅ ᴠᴀʀɪᴏᴜs ᴛʜɪɴɢs ǫᴜɪᴄᴋʟʏ ᴇxᴀᴍᴘᴇ ʟᴏɢᴏ,ᴠɪᴅᴇᴏs,sᴏɴɢ,ᴀᴅᴜʟᴛ,ᴍᴏᴠɪᴇs,sᴛɪᴄᴋᴇʀs ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ʙʏ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ★ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴜsɪɴɢ` 🥂 **[Baileys](https://github.com/WhiskeySockets/Baileys)**
+
+<br>
+
+![repo views]
