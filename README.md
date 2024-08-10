@@ -3,9 +3,10 @@
 
 <br>
 
-  <p align="center">  
-  <a href="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
-    <img alt="SILENT-SOBX-MD" height="250" src="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
+<img align="center" height="auto"
+src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20SILENT%20LOVER%20432%20KINGOFKINGS&image=https://telegra.ph/file/e47b23583ab7ec42d58df.jpg?v=4&backgroundColor=%23ecf0f1&github=SILENTLOVER4&pattern=leaf&colorPattern=%23eaeaea"/>
+
+<br>
 
 </a>
 </p>
@@ -53,8 +54,9 @@
 <br>
 
 
-<img align="center" height="auto"
-src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20SILENT%20LOVER%20432%20KINGOFKINGS&image=https://telegra.ph/file/e47b23583ab7ec42d58df.jpg?v=4&backgroundColor=%23ecf0f1&github=SILENTLOVER4&pattern=leaf&colorPattern=%23eaeaea"/>
+  <p align="center">  
+  <a href="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
+    <img alt="SILENT-SOBX-MD" height="250" src="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
 
 
 <br>
