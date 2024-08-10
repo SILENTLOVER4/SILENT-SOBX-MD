@@ -57,4 +57,4 @@
 
 <br>
 
-![license](https://img.shields.io/github/license/SILENTLOVER4/SILENT-SOBX-MD?color=black&label=License&style=plastic)
+![license](https://img.shields.io/http://www.apache.org/licenses/LICENSE-2.0?color=black&label=License&style=plastic)
