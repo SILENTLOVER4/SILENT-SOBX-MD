@@ -22,6 +22,9 @@
 
 <br>
 
+# 🔰 ғᴏʀ sᴜᴘᴘᴏʀᴛ 🔰
+
+<br>
 
 <a href="https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴡʜᴀᴛsᴀᴘᴘ%20ᴄʜᴀɴɴᴇʟ-red" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
 
@@ -36,6 +39,8 @@
 <br>
 
 <br>
+
+# 🔰 ғᴏʀ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs 🔰
 
 <a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD-official-web.com"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ ᴀɴᴅ ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-black" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
 
