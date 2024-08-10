@@ -13,7 +13,7 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=THE%20WORLD%
 
 <br>
 
-🥂 `ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ's ᴀɴᴅ ғɪɴᴅ ᴠᴀʀɪᴏᴜs ᴛʜɪɴɢs ǫᴜɪᴄᴋʟʏ ᴇxᴀᴍᴘᴇ ʟᴏɢᴏ,ᴠɪᴅᴇᴏs,sᴏɴɢ,ᴀᴅᴜʟᴛ,ᴍᴏᴠɪᴇs,sᴛɪᴄᴋᴇʀs ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ʙʏ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ★ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴜsɪɴɢ` 🥂 **[Baileys](https://github.com/WhiskeySockets/Baileys)**
+🥂 `ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ's ᴀɴᴅ ғɪɴᴅ ᴠᴀʀɪᴏᴜs ᴛʜɪɴɢs ǫᴜɪᴄᴋʟʏ ᴇxᴀᴍᴘʟᴇ ʟᴏɢᴏ,ᴠɪᴅᴇᴏs,sᴏɴɢ,ᴀᴅᴜʟᴛ,ᴍᴏᴠɪᴇs,sᴛɪᴄᴋᴇʀs ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ʙʏ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ★ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴜsɪɴɢ` 🥂 **[Baileys](https://github.com/WhiskeySockets/Baileys)**
 
 <br>
 
