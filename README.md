@@ -42,7 +42,14 @@
 
 # 🔰 ғᴏʀ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs 🔰
 
+<br>
+
 <a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD-official-web.com"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ ᴀɴᴅ ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-black" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
+
+<br>
+
+`⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛⚛`
+
 
 <br>
 
