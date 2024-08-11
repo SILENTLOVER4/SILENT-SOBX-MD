@@ -9,7 +9,7 @@
 <br>
 
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=#FFFF00&center=true&vCenter=true&multiline=false&lines=`SILENT+-+SOBX+-+MD+WHATSAPP+BOT`" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=000000&center=true&vCenter=true&multiline=false&lines=`SILENT+-+SOBX+-+MD+WHATSAPP+BOT`" alt="">
 
 <br>
 
