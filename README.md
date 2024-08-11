@@ -59,11 +59,6 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 <br>
 
 
-  <p align="center">  
-  <a href="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
-    <img alt="SILENT-SOBX-MD" height="250" src="https://telegra.ph/file/2a06381b260c3f096a612.jpg">
-
-
 <br>
 
 ![IMG_20240122_120449](https://github.com/user-attachments/assets/24963bda-cc4b-4ab3-a227-c0582e47f60d)
