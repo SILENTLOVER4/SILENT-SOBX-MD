@@ -1,7 +1,7 @@
 <br>
 
 # SILENT-SOBX-MD
-🔰 `ᴛʜᴇ ᴡᴏʀʟᴅ ʙᴇsᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ•ʟᴏᴠᴇʀ⁴³²` 🔰
+🔰 **`THE WORLD BEST WHATSAPP BOT CREATED BY SILENTLOVER 432`** 🔰
 
 <br>
 
