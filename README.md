@@ -15,6 +15,10 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 ![forks](https://img.shields.io/github/forks/SILENTLOVER4/SILENT-SOBX-MD?label=Forks&style=social)
 
+
+![stars](https://img.shields.io/github/stars/SILENTLOVER4/SILENT-SOBX-MD?style=social)
+
+
 <br>
 
 </a>
