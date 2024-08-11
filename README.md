@@ -39,7 +39,7 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <br>
 
-🥂 `ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ's ᴀɴᴅ ғɪɴᴅ ᴠᴀʀɪᴏᴜs ᴛʜɪɴɢs ǫᴜɪᴄᴋʟʏ ᴇxᴀᴍᴘʟᴇ ʟᴏɢᴏ,ᴠɪᴅᴇᴏs,sᴏɴɢ,ᴀᴅᴜʟᴛ,ᴍᴏᴠɪᴇs,sᴛɪᴄᴋᴇʀs ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ʙʏ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ★ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ ᴜsɪɴɢ` 🥂 **[Baileys](https://github.com/WhiskeySockets/Baileys)**
+🥂 `THIS BOT IS CREATED TO DOWNLOAD'S AND FIND VARIOUS TYPES THINGS QUICKLY **EXAMPLE** LOGO, PHOTO, STICKERS, VIDEOS, MOVIES, ADULT, AND MANY MORE FEATURES BY USING THIS BOT™ THIS BOT IS CREATED TO USING` 🥂 **[Baileys](https://github.com/WhiskeySockets/Baileys)**
 
 <br>
 
