@@ -61,6 +61,9 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <br>
 
+![IMG_20240122_120449](https://github.com/user-attachments/assets/24963bda-cc4b-4ab3-a227-c0582e47f60d)
+
+
 <br>
 
 <br>
