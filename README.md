@@ -41,7 +41,7 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <br>
 
-# 🔰 ғᴏʀ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴀɴᴅ sᴇssɪᴏɴ's ᴍᴇᴛʜᴏᴅs 🔰
+# 🔰 ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴀɴᴅ sᴇssɪᴏɴ's ᴍᴇᴛʜᴏᴅs 🔰
 
 <br>
 
