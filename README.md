@@ -67,4 +67,5 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <br>
 
-![license](https://github.com/SILENTLOVER4/SILENT-SOBX-MD/blob/main/LICENSE?color=blue&label=License&styleplastic)
+![license](https://img.shields.io/github/license/prabathLK/PRABATH-MD?color=green&label=License&style=plastic)
+
