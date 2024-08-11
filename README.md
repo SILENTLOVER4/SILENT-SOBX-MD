@@ -71,10 +71,9 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <br>
 
-<a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD-official-web.com"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ ᴀɴᴅ ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-black" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
+<a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD-official-web.com"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ ᴀɴᴅ ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-blue" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
 <br>
 
-<a href="https://www.SILENT-SOBX-MD-official-web.com/"><img src="https://img.shields.io/badge/DEPLOY-greeen" alt="Create prabath-md bot" width="150"></a>
 
 <br>
 
