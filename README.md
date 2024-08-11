@@ -19,7 +19,7 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 ![stars](https://img.shields.io/github/stars/SILENTLOVER4/SILENT-SOBX-MD?style=social)
 
 
-[![FORK PRABATH-MD](https://img.shields.io/badge/FORK%20-PRABATH%20MD-white)](https://github.com/prabathLK/PRABATH-MD/fork)
+[![FORK SILENT-SOBX-MD](https://img.shields.io/badge/FORK%20-PRABATH%20MD-white)](https://github.com/prabathLK/PRABATH-MD/fork)
 
 <br>
 
