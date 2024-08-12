@@ -1,3 +1,5 @@
+<div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br>Page Viewers</div>
+
 <br>
 
 # SILENT-SOBX-MD
