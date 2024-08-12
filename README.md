@@ -57,7 +57,7 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 # 🔰ғᴏʀ sᴜᴘᴘᴏʀᴛ🔰
 
-`➱HII DEARS FRIEND IF YOU WANT ANY HELP SO YOU CAN CONTACT↘︎ WITH ME WIA WHATSAPP➺`
+**`➱HII DEARS FRIEND IF YOU WANT ANY HELP SO YOU CAN CONTACT↘︎ WITH ME WIA WHATSAPP➺`**
 
 <br>
 <p align="center">
