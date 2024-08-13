@@ -104,5 +104,5 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <br>
 
-![license](https://img.shields.io/github/license/SILENTLOVER4/SILENT-SOBX-MD?color=green&label=License&style=plastic)
+![license](https://img.shields.io/github/license/prabathLK/PRABATH-MD?color=green&label=License&style=plastic)
 
