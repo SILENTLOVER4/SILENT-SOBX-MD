@@ -83,9 +83,6 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 <a href="https://www.silent-sobx-md-official-web.com"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ ᴀɴᴅ ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-green" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
 <br>
 
- [![nima](https://img.shields.io/badge/deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://heroku.com/deploy?template=https://github.com/SILENTLOVER4/SILENT-SOBX-MD)
-
-<br>
 
 
 <br>
