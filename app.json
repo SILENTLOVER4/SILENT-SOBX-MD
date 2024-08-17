@@ -11,6 +11,19 @@
       "required": true
     },  
 
+    "GITHUB_AUTH_TOKEN": {
+      "description": "Put your github authtoken here.",
+      "required": true
+    }   
+},
+
+
+  "env": {
+    "BOT_NUMBER": {
+      "description": "Put the number here.",
+      "required": true
+    },  
+
     "ALIVE_IMG": {
       "description": "Put your alive img here.",
       "required": true
