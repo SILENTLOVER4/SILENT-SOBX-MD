@@ -80,10 +80,10 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <br>
 
-<a href="https://heroku.com/deploy?template=https://github.com/SILENTLOVER4/SILENT-SOBX-MD"><img src="https://img.shields.io/badge/ᴅᴇᴘʟᴏʏ ᴀɴᴅ ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-green" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
+<a href="https://pair-web-public.koyeb.app/"><img src="https://img.shields.io/badge/ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-green" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SILENTLOVER4/SILENT-SOBX-MD) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/SILENTLOVER4/SILENT-SOBX-MD) 
 
 
 <br>
