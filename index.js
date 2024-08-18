@@ -46,7 +46,7 @@ var { version } = await fetchLatestBaileysVersion()
 const conn = makeWASocket({
         logger: P({ level: 'silent' }),
         printQRInTerminal: false,
-        browser: Browsers.macOS("Safari"),
+        browser: Browsers.macOS("Firefox"),
         syncFullHistory: true,
         auth: state,
         version
