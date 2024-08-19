@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SILENT-SOBX-MD",
-    "stop": "pm2 stop wabot",
-    "restart": "pm2 restart wabot"
+    "stop": "pm2 stop SILENT-SOBX-MD",
+    "restart": "pm2 restart SILENT-SOBX-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
