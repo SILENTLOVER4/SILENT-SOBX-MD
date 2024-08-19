@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting SILENT-SOBX-MD 🧬...");
+console.log("Connecting Wabot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -70,7 +70,6 @@ console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
 let up = `SILENT-SOBX-MD bot is successfully installed* ✅
-  
   
   🔮 ```The main hope of creating this bot is to take full advantage of the WhatsApp app and make its work easier```
   
