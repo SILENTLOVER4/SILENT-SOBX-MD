@@ -80,8 +80,6 @@ let up = `SILENT-SOBX-MD bot is successfully installed* ✅
 
   🛑 *THIS BOT CREATED BY SILENTLOVER432 AND SOBIA BUTT*
   
-  ```-```
-  
   🎉 *Website:* ```https://github.com/SILENTLOVER4/SILENT-SOBX-MD```
   
   👨‍💻 *Owners:* ```SILENTLOVER & SOBIABUTT```
