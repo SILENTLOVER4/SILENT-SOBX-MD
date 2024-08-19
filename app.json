@@ -1,23 +1,24 @@
 {
-  "name": "SILENT-SOBX-MD",
-  "description": "Javascript WhatsApp bot made by Silentlover4",
-  "logo": "https://telegra.ph/file/3ef5623a33997cf948438.jpg",
-  "keywords": ["bot"],
+  "name": "SILENT-SOBX-MD (2.1.1)",
+  "description": "SILENT-SOBX-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "https://telegra.ph/file/e47b23583ab7ec42d58df.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
   "success_url": "/",
 
   "env": {
-    "SESSION_ID": {
-      "description": "Put the session-id here.",
+    "BOT_NUMBER": {
+      "description": "Put the number here.",
       "required": true
     },  
 
-    "ALIVE_IMG": {
-      "description": "Put your alive img here.",
-      "required": true
-    },
-    
-    "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": false
+    },  
+
+
+    "GITHUB_AUTH_TOKEN": {
+      "description": "Put your github authtoken here.",
       "required": true
     }   
 },
@@ -27,5 +28,7 @@
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
-  "stack": "heroku-24"
+  "stack": "heroku-22"
+  
+  
 }
