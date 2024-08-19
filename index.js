@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting wa bot 🧬...");
+console.log("Connecting SILENT-SOBX-MD 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,9 +69,29 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `SILENT-SOBX-MD connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `SILENT-SOBX-MD bot is successfully installed* ✅
+  
+  
+  🔮 ```The main hope of creating this bot is to take full advantage of the WhatsApp app and make its work easier```
+  
+  💡 ```Various things can be downloaded from this bot.  Also, managing groups, making logos & edit-images in different ways, searching for different things and getting information and more futures included.```
+  
+  ⚠️ *Also, if your Whatsapp account gets damaged or banned by using this, we are not responsible and you should take responsibility for it.*
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/3ef5623a33997cf948438.jpg` }, caption: up })
+  🛑 *THIS BOT CREATED BY SILENTLOVER432 AND SOBIA BUTT*
+  
+  ```-```
+  
+  🎉 *Website:* ```https://github.com/SILENTLOVER4/SILENT-SOBX-MD```
+  
+  👨‍💻 *Owners:* ```SILENTLOVER & SOBIABUTT```
+  
+  🪩 *OUR YOUTUBE:* ```https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7```
+  
+  🌟 *Our WhatsApp Channel:* ```https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s```
+   ✅\n\nPREFIX: ${prefix}`;
+
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/2a06381b260c3f096a612.jpg` }, caption: up })
 
 }
 })
