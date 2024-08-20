@@ -55,7 +55,7 @@ if (!q) return reply('*Please give me quary to download*')
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `*SILENT-SOBX-MD Video Downloader🛜*
+const cap = `*SILENT-SOBX-MD VIDEO DOWNLOADER 🛜*
 *TITLE: ${anu.title}*
 
 🔗𝐔𝐑𝐋 : ${anu.url}
@@ -85,9 +85,9 @@ await conn.sendMessage(from, { react: { text: '🎥', key: senda1.key }})
 })
 
 cmd({
-    pattern: "song",
+    pattern: "play",
     alias: ["ytsong"],
-    use: '.song koun umar',
+    use: '.play koun umar',
     react: "🎧",
     desc: "Search & download yt song.",
     category: "download",
@@ -100,7 +100,7 @@ if (!q) return reply('Please give me quary to download')
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `*SILENT-SOBX-MD Music Downloader🛜*
+const cap = `*SILENT-SOBX-MD MUSIC DOWNLOADER 🛜*
 
 TITLE: ${anu.title}
 
