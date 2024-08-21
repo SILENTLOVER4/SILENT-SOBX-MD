@@ -204,7 +204,6 @@ var du = await yt2.audio['128kbps'].download()
     await conn.sendMessage(from, { react: { text: '🎼', key: senda.key }})
     
 await conn.sendMessage(from, { react: { text: '✅', key: mek.key }})
-})
 
 } catch (e) {
   reply("ERROR ")
