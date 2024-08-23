@@ -78,12 +78,17 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 # 🔰 ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴀɴᴅ sᴇssɪᴏɴ's ᴍᴇᴛʜᴏᴅs 🔰
 
-<br>
+### <br>
 
 <a href="https://pair-web-public.koyeb.app/"><img src="https://img.shields.io/badge/ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-green" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
 <br>
+### <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/SILENTLOVER4/SILENT-SOBX-MD) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/SILENTLOVER4/SILENT-SOBX-MD)
+### <br>
+
+p align="left"><a href="https://repl.it/github/SILENTLOVER4/SILENT-SOBX-MD"> <img src="https://img.shields.io/badge/Deploy%20To%20Replit-gray?style=for-the-badge&logo=replit" height="25"/></a></p>
+
 
 
 <br>
