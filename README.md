@@ -90,6 +90,9 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 <p align="left"><a href="https://repl.it/github/SILENTLOVER4/SILENT-SOBX-MD"> <img src="https://img.shields.io/badge/Deploy%20To%20Replit-gray?style=for-the-badge&logo=replit" height="25"/></a></p>
 
+p align="left"><a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2SILENTLOVER4%2FSILENT-SOBX-MD&branch=main&nameprincegds&builder=dockerfile&env[DATABASE_URL]=&env[SESSION_ID]=your+sessionid+here&env[MODE]=public&env=[autoRead]=false&env[statusview]=false&env[REMOVEBG_KEY]=your+rmbg+key&env[antidelete]=false"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" height="30"/></a></p>
+
+
 
 <br>
 
