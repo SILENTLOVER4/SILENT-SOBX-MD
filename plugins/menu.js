@@ -52,7 +52,7 @@ ${menu.search}
 POWERD BY SILENTLOVER432👑
 `
 
-await conn.sendMessage(from,{text:madeMenu},{quoted.mek})
+await conn.sendMessage(from,{text: madeMenu},{quoted: mek})
 
 }catch(e){
 console.log(e)
