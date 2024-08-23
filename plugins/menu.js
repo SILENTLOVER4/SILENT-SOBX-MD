@@ -26,27 +26,27 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 }
 
 let madeMenu = `😼 *Hello ${pushname}*
-> *DOWNLOAD COMMANDS* ☯
+> *❂DOWNLOAD COMMANDS❂*
 
 ${menu.download}
 
-> *MAIN COMMANDS* ☯
+> *❂MAIN COMMANDS❂*
 
 ${menu.main}
 
-> *GROUP COMMANDS* ☯
+> *❂GROUP COMMANDS❂*
 
 ${menu.group}
 
-> *OWNER COMMANDS* ☯
+> *❂OWNER COMMANDS❂*
 
 ${menu.owner}
 
-> *CONVERT COMMANDS* ☯
+> *❂CONVERT COMMANDS❂*
 
 ${menu.convert}
 
-> *SEARCH COMMANDS* ☯
+> *❂SEARCH COMMANDS❂*
 
 ${menu.search}
 
