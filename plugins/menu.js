@@ -52,7 +52,7 @@ ${menu.search}
 POWERD BY SILENTLOVER432👑
 `
 
-await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/2a06381b260c3f096a612.jpg"},caption:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
