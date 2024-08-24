@@ -78,10 +78,11 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 # 🔰 ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴀɴᴅ sᴇssɪᴏɴ's ᴍᴇᴛʜᴏᴅs 🔰
 
-### <br>
 
-<a href="https://pair-web-public.koyeb.app/"><img src="https://img.shields.io/badge/ɢᴇᴛ sᴇssɪᴏɴ ɪ'ᴅ-green" alt="ᴄʀᴇᴀᴛ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ" width="200"></a>
-
+### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 1
+<p align="left">
+<a href="https://pair-web-public.koyeb.app/"><img height= "30" title="Author" src="https://img.shields.io/badge/SESSION ID-green?style=for-the-badge&logo=render"></a>
+<p/>
 ### <br>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/SILENTLOVER4/SILENT-SOBX-MD)
