@@ -19,11 +19,7 @@
     "ALIVE_MSG": {
       "description": "Put your alive msg here.",
       "required": true
-    },
-    "MONGODB": {
-      "description": "put your mongodb.",
-      "required": true
-     }
+    }
 },
 
      "buildpacks": [
