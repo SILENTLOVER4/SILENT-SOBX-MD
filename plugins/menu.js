@@ -1,16 +1,15 @@
-const {readEnv} = require('../lib/database')
+const config = require('../config')
 const {cmd , commands} = require('../command')
 
 cmd({
     pattern: "menu",
-    react: "💨",
+    react: "🥰",
     desc: "get cmd list",
     category: "main",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-const config = await readEnv();
 let menu = {
 main: '',
 download: '',
@@ -22,39 +21,39 @@ search: ''
 
 for (let i = 0; i < commands.length; i++) {
 if (commands[i].pattern && !commands[i].dontAddCommandList) {
-menu[commands[i].category] += `${config.PREFIX}${commands[i].pattern}\n`;
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
 
 let madeMenu = `😼 *Hello ${pushname}*
-> *❂DOWNLOAD COMMANDS❂*
+> *DOWNLOAD COMMANDS* 🔥
 
 ${menu.download}
 
-> *❂MAIN COMMANDS❂*
+> *MAIN COMMANDS* 🔥
 
 ${menu.main}
 
-> *❂GROUP COMMANDS❂*
+> *GROUP COMMANDS* 🔥
 
 ${menu.group}
 
-> *❂OWNER COMMANDS❂*
+> *OWNER COMMANDS* 🔥
 
 ${menu.owner}
 
-> *❂CONVERT COMMANDS❂*
+> *CONVERT COMMANDS* 🔥
 
 ${menu.convert}
 
-> *❂SEARCH COMMANDS❂*
+> *SEARCH COMMANDS* 🔥
 
 ${menu.search}
 
 POWERD BY SILENTLOVER432👑
 `
 
-await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
