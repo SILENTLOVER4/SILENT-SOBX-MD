@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 
 cmd({
     pattern: "menu",
-    react: "🥰",
+    react: "🍂",
     desc: "get cmd list",
     category: "main",
     filename: __filename
@@ -25,32 +25,32 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }
 
-let madeMenu = `😼 *Hello ${pushname}*
-> *DOWNLOAD COMMANDS* 🔥
+let madeMenu = `🐬 *ʜᴇʟʟᴏ ${pushname}*
+> *❂ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.download}
 
-> *MAIN COMMANDS* 🔥
+> *❂ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.main}
 
-> *GROUP COMMANDS* 🔥
+> *❂ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.group}
 
-> *OWNER COMMANDS* 🔥
+> *❂ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.owner}
 
-> *CONVERT COMMANDS* 🔥
+> *❂ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.convert}
 
-> *SEARCH COMMANDS* 🔥
+> *❂sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.search}
 
-POWERD BY SILENTLOVER432👑
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛ_ʟᴏᴠᴇʀ⁴³²
 `
 
 await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
