@@ -23,7 +23,12 @@
     "MONGODB": {
       "description": "put your mongodb.",
       "required": true
+     },
+    "PREFIX": {
+      "description": "put your prefix.",
+      "required": true
      }
+   },
 },
 
      "buildpacks": [
