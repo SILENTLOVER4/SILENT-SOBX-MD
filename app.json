@@ -28,7 +28,6 @@
       "description": "put your prefix.",
       "required": true
      }
-   },
 },
 
      "buildpacks": [
