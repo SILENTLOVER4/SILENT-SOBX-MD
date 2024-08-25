@@ -39,15 +39,6 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-//==========connect mongodb=========
-const connectDB = require('./lib/mongodb')
-connectDB();
-//=================================
-const {readEnv} = require('./lib/database')
-const config = await readEnv();
-const prefix = config.PREFIX
-//=================================
-        
 console.log("Connecting wa bot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
@@ -78,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `SILENT-SOBX-MD-BOT CONNECTED SUCCESSFUL ✅\n\nPREFIX: ${prefix}`;
+let up = `SILENT-SOBX-MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/2a06381b260c3f096a612.jpg` }, caption: up })
 
