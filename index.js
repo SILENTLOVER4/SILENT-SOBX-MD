@@ -17,8 +17,9 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
+const prefix = '.'
 
-const ownerNumber = ['923096287432']
+const ownerNumber = ['94779415698']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -38,15 +39,6 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-//==========connect mongodb=========
-const connectDB = require('./lib/mongodb')
-connectDB();
-//=================================
-const {readEnv} = require('./lib/database')
-const config = await readEnv();
-const prefix = config.PREFIX
-//=================================
-        
 console.log("Connecting wa bot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
@@ -77,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `SILENT-SOBX-MD-BOT CONNECTED SUCCESSFUL ✅\n\nPREFIX: ${prefix}`;
+let up = `Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/2a06381b260c3f096a612.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
 }
 })
