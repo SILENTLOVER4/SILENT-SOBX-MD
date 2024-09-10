@@ -120,7 +120,4 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 ![license](https://img.shields.io/github/license/SILENTLOVER4/SILENT-SOBX-MD?color=green&label=License&style=plastic)
 
-<ul id="list">
- <li>LAHORE</li>
- <li>RAWALPINDI</li>
-</ul>
+<div>class="moon"</div>
