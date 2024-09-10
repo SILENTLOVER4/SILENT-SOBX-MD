@@ -120,22 +120,3 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 ![license](https://img.shields.io/github/license/SILENTLOVER4/SILENT-SOBX-MD?color=green&label=License&style=plastic)
 
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Double Click Heart</title>
-  </head>
-  <body>
-    <h3>Double click on the image to <i class="fas fa-heart"></i> it</h3>
-    <small>You liked it <span id="times">0</span> times</small>
-
-    <div class="loveMe"></div>
-
-    <script src="script.js"></script>
-  </body>
-</html>
