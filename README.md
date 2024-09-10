@@ -120,23 +120,3 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 
 ![license](https://img.shields.io/github/license/SILENTLOVER4/SILENT-SOBX-MD?color=green&label=License&style=plastic)
 
-from turtle import *
-import colorsys
-bgcolor("black")
-tracer(200)
-def draw() :
-	h = 0
-	n = 200
-	for i in range(2 , 2900 ):
-		c = colorsys.hsv_to_rgb(h ,1 ,1)
-		h += 1/n
-		color(c)
-		pensize(7)
-		up()
-		goto(0 , 0)
-		down()
-		circle( i ,45)
-		for j in range (2 , i ,100 ):
-			  circle(i , 3 ,45 )
-draw()
-done()
