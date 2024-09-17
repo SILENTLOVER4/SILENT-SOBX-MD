@@ -4,6 +4,7 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "update",
+    react: "🪄",
     alias: ["updateenv"],
     desc: "Check and update environment variables",
     category: "owner",
