@@ -11,7 +11,6 @@
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@bochilteam/scraper":"*",
     "pino": "^7.0.5",
     "pm2": "^5.2.0",
     "util": "^0.12.4",
