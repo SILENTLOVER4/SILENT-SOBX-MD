@@ -17,7 +17,7 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
-const PREFIX = ('.)
+const PREFIX = ('.')
 
 const ownerNumber = ['923096287432']
 
