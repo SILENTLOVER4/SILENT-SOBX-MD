@@ -17,7 +17,6 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
-const PREFIX = ('.')
 
 const ownerNumber = ['923096287432']
 
@@ -45,6 +44,7 @@ connectDB();
 //==================================
 const {readEnv} = require('./lib/database')
 const config = await readEnv();
+const prefix = ('.')
 //=================================
         
 console.log("Connecting wa bot 🧬...");
