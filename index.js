@@ -37,6 +37,13 @@ const port = process.env.PORT || 8000;
 
 //=============================================
 
+const bot = require('whatsapp-web.js')();
+const imgToSticker = require('./imgToSticker');
+
+imgToSticker(bot);
+
+bot.listen();
+
 async function connectToWA() {
 //===================connect mongodb===================
 const connectDB = require('./lib/mongodb')
