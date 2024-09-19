@@ -6,6 +6,5 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID,
-STICKER_PACK: process.env.AUTHOR || "Astro;FXBOTTO",
 MONGODB: process.env.MONGODB || "enter mongodb url",
 };
