@@ -1,5 +1,6 @@
-const config = require("../config");
-const { Module, mode, toAudio, webp2mp4, fancy } = require("../lib");
+const config = require("../config")
+const {cmd , commands} = require('../command')
+const { Module, mode, toAudio, webp2mp4, fancy } = require("../lib")
 
 Module(
 	{
