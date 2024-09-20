@@ -1,6 +1,6 @@
 <div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br>SILENTLOVER432</div>
 
-<font color="red">love yoh</font> (Red Color)
+<font color="red">love yoh</font>
 
 <br>
 
