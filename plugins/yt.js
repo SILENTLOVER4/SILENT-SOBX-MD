@@ -65,7 +65,11 @@ const cap = `*SILENT-SOBX-MD VIDEO DOWNLOADER 🛜*
 📟𝐕𝐈𝐄𝐖𝐒: ${anu.views}
 
 
-sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²`
+sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+
+ᴊᴏɪɴ ғᴏʀ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ᴜᴘᴅᴀᴛᴇs
+https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s
+❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁`
 await conn.sendMessage(from, { image: { url: anu.thumbnail }, caption: cap}, { quoted: mek })
 const yt = await dl.youtubedl(anu.url).catch(async () => await dl.youtubedlv2(anu.url)) 
 const yt2 = await dl.youtubedlv2(anu.url)
@@ -111,7 +115,10 @@ TITLE: ${anu.title}
 📟𝐕𝐈𝐄𝐖𝐒: ${anu.views}
 
 
-sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ`
+sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ
+ᴊᴏɪɴ ғᴏʀ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ᴜᴘᴅᴀᴛᴇs
+https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s
+❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁❁`
 await conn.sendMessage(from, { image: { url: anu.thumbnail }, caption: cap}, { quoted: mek })
 const yt2 = await dl.youtubedl(anu.url)
 if (yt2.audio['128kbps'].fileSizeH.includes('MB') && yt2.audio['128kbps'].fileSizeH.replace(' MB','') >= config.MAX_SIZE) return await conn.sendMessage(from, { text: '*This video too big !!*' }, { quoted: mek });
