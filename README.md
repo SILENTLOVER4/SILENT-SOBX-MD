@@ -1,5 +1,6 @@
 <div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br>SILENTLOVER432</div>
 
+# <span style="font-size: 5em; font-weight: bold; color: #33CCFF; animation: blinker 2s linear infinite;">SILENT-SOBX-MD</span>
 
 <br>
 
