@@ -80,7 +80,7 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 # 🔰 ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴀɴᴅ sᴇssɪᴏɴ's ᴍᴇᴛʜᴏᴅs 🔰
 <br>
 
-`*✠ ᴄᴏᴘʏ ᴛʜɪs ᴍᴏɴɢᴏᴅʙ ᴋᴇʏ:ғᴏʀ ᴅᴇᴘʟᴏʏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ✠*`
+`✠ ᴄᴏᴘʏ ᴛʜɪs ᴍᴏɴɢᴏᴅʙ ᴋᴇʏ:ғᴏʀ ᴅᴇᴘʟᴏʏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ✠`
 
 ```
 mongodb+srv://su7465058:it583k0A4NbDPlE4@cluster0.eawwp3y.mongodb.net/?retryWrites=true&w=majority
