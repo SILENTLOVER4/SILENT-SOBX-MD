@@ -27,6 +27,20 @@ menu[commands[i].category] += `➺${commands[i].pattern}\n`;
 }
 
 let madeMenu = `🐬 *ʜᴇʟʟᴏ ${pushname}*
+✨ *Welcome to ${botname}* ✨🌟
+╭━━━⊱ 👤 *USER* 👤 ⊱━━━╮
+🖋️ *Name:* _%name_
+╰━━━━━━━━━━━━━━━━╯
+
+╭━━━⊱ 🌐 *INFO* 🌐 ⊱━━━╮
+⛑️ *Mode:* _%mode_
+📱 *Platform:* _%platform_
+💻 *Type:* _NodeJs_
+🛡️ *Baileys:* _Multi Device_
+🔑 *Prefix:* [ *%_p* ]
+⏳ *Uptime:* _%muptime_
+💾 *Database:* _%totalreg_
+╰━━━━━━━━━━━━━━━━━━╯
 > *❂ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.download}
