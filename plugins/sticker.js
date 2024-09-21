@@ -1,5 +1,5 @@
 const config = require('../config');
-const { Sticker, StickerTypes } = require('wa-sticker-formatterrrr');
+const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const { cmd } = require('../command');
 const { getRandom } = require('../lib/functions');
 
