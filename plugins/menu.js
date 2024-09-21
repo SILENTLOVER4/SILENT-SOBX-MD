@@ -26,21 +26,30 @@ menu[commands[i].category] += `➺${commands[i].pattern}\n`;
  }
 }
 
-let madeMenu = `🐬 *ʜᴇʟʟᴏ ${pushname}*
-✨ *WELCOME TO SILENT-SOBX-MD* ✨🌟
-╭━━━⊱ 👤 *USER* 👤 ⊱━━━╮
-🖋️ *Name:* _%name_
-╰━━━━━━━━━━━━━━━━╯
+let madeMenu = `*HELLO DEAR*
+
+${pushname}
+
+*WELCOME TO SILENT-SOBX-MD*
+
+╭━━━⊱ 👤 *MENU* 👤 ⊱━━━╮
+
+*THE WORLD BEST WHATSAPP BOT CREATED BY SILENTLOVER432*
+       
+  ╰━━━━━━━━━━━━━━━━╯
 
 ╭━━━⊱ 🌐 *INFO* 🌐 ⊱━━━╮
-⛑️ *Mode:* _%mode_
-📱 *Platform:* _%platform_
-💻 *Type:* _NodeJs_
-🛡️ *Baileys:* _Multi Device_
-🔑 *Prefix:* [ *%_p* ]
-⏳ *Uptime:* _%muptime_
-💾 *Database:* _%totalreg_
+⛑️ *MODE:* _public_
+📱 *REPOSITORY:* _github.com_
+💻 *TYPE:* _NodeJs_
+🛡️ *BAILEYS:* _Multi Device_
+🔑 *PREFIX:* [ *.* ]
+⏳ *OWNER:* _SILENT LOVER_
+💾 *DATABASE:* _Mongodb_
 ╰━━━━━━━━━━━━━━━━━━╯
+
+⇩━━━━━━━━━━━━━━━━━━⇩
+
 > *❂ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅs❂*
 
 ${menu.download}
@@ -66,6 +75,8 @@ ${menu.convert}
 ${menu.search}
 
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛ_ʟᴏᴠᴇʀ⁴³²
+
+╰━━━━━━━━━━━━━━━━━━╯
 `
 
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
