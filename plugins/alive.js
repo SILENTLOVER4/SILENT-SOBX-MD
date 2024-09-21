@@ -4,7 +4,7 @@ const { cmd, commands } = require('../command');
 // Define command configuration
 cmd({
   pattern: /^alive$/i,
-  react: '',
+  react: '🥰',
   desc: 'Check bot online status and information.',
   category: 'main',
   filename: __filename,
