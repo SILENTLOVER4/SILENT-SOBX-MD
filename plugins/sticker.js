@@ -3,7 +3,7 @@ const fs = require('fs');
 // Define command
 cmd({
   pattern: 'sticker',
-  react: '',
+  react: '🥺',
   alias: ['s', 'stic'],
   desc: 'Convert image to sticker.',
   category: 'convert',
