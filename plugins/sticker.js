@@ -5,7 +5,7 @@ const { getRandom } = require('../lib/functions');
 
 var imgmsg = '';
 if (config.LANG === 'SI') imgmsg = 'ඡායාරූපයකට mention දෙන්න!';
-else imgmsg = 'Reply to a photo!';
+else imgmsg = 'ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ғᴏʀ sᴛɪᴄᴋᴇʀ!';
 
 var descg = '';
 if (config.LANG === 'SI') descg = 'එය ඔබගේ mention දුන් ඡායාරූපය ස්ටිකර් බවට පරිවර්තනය කරයි.';
@@ -13,7 +13,7 @@ else descg = 'It converts your replied photo to sticker.';
 
 cmd({
     pattern: 'sticker',
-    react: '🔮',
+    react: '🤹‍♀️',
     alias: ['s', 'stic'],
     desc: descg,
     category: 'convert',
