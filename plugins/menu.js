@@ -27,7 +27,7 @@ menu[commands[i].category] += `➺${commands[i].pattern}\n`;
 }
 
 let madeMenu = `🐬 *ʜᴇʟʟᴏ ${pushname}*
-✨ *Welcome to ${botname}* ✨🌟
+✨ *WELCOME TO SILENT-SOBX-MD* ✨🌟
 ╭━━━⊱ 👤 *USER* 👤 ⊱━━━╮
 🖋️ *Name:* _%name_
 ╰━━━━━━━━━━━━━━━━╯
