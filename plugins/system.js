@@ -4,8 +4,8 @@ const os = require("os")
 const {runtime} = require('../lib/functions')
 cmd({
     pattern: "system",
-    react: "🪅",
-    alias: ["info","status","cpo"],
+    react: "♠️",
+    alias: ["info","status"],
     desc: "cheack uptime",
     category: "main",
     filename: __filename
