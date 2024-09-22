@@ -90,6 +90,12 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │
 │📖 COMMAND: .ai
 │ℹ️ chat with ai bot
+│
+│📖 COMMAND: .system
+│ℹ️ check bot systems
+│
+│📖 COMMAND: .menu
+│ℹ️ check bot runtime
 ╰────────────⦁
 
 *╭──❮ OTHER COMMANDS ❯*
