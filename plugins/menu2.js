@@ -39,11 +39,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ DAY: ${currentDay}
 │ DATE: ${currentDate}
 │ PLUGINS: ${commands.length}
-│ RUNTIME: ${runtime(process.uptime())}
-│ MEMORY: ${getRAMUsage()}
-│ OS: ${getOS()}
-│ VERSION: ${require("../package.json").version}
-╰────────────────${readmore}\n`;
+╰────────────────${readmore}\n
 ❁ ════ ❃•◯•❃ ════ ❁
 
 ╭━━━⊱ 👤 *MENU2* 👤 ⊱━━━╮
