@@ -4,7 +4,7 @@ const os = require(os)
 
 cmd({
     pattern: "system",
-    react: "📟",
+    react: "🪅",
     alias: ["info","status","cpo"],
     desc: "cheack uptime",
     category: "main",
@@ -17,6 +17,7 @@ let status = `*Uptime:*  ${runtime(process.uptime())}
 *HostName:* ${os.hostname()}
 *Owner:* SILENT LOVER⁴³²
 `
+return reply(`${status}`)
 }catch(e){
 console.log(e)
 reply(`${e}`)
