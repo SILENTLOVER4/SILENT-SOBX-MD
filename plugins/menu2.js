@@ -34,6 +34,14 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 
 ❁ ════ ❃•◯•❃ ════ ❁
 
+⇩━━━━━━━━❁━━━━━━━━⇩
+│ PLUGINS: ${commands.length}
+│ RUNTIME: ${runtime(process.uptime())}
+│ MEMORY: ${getRAMUsage()}
+│ OS: ${getOS()}
+╰────────────────
+
+
 ╭━━━⊱ 👤 *MENU2* 👤 ⊱━━━╮
 
 *❖ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❖*
