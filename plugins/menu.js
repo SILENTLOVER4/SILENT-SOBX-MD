@@ -38,7 +38,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²👨🏻‍💻*
 
 
-╭──❮ DOWNLOAD COMMANDS ❯
+*╭──❮ DOWNLOAD COMMANDS ❯*
 │
 │📖 COMMAND: .play
 │ℹ️ Download song from yt
@@ -71,13 +71,13 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ Download xxx video
 ╰────────────⦁ 
 
-╭──❮ SEARCH COMMANDS ❯
+*╭──❮ SEARCH COMMANDS ❯*
 │
 │📖 COMMAND: .yts
 │ℹ️ Serch videos from yt
 ╰────────────⦁  
 
-╭──❮‍ MAIN COMMANDS ❯
+*╭──❮‍ MAIN COMMANDS ❯*
 │
 │📖 COMMAND: .alive
 │ℹ️ Check online or not
@@ -92,7 +92,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ chat with ai bot
 ╰────────────⦁
 
-╭──❮ OTHER COMMANDS ❯
+*╭──❮ OTHER COMMANDS ❯*
 │
 │📖 COMMAND: .hirunews/news
 │ℹ️ Get news result for life
@@ -107,7 +107,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ Get nasa news
 ╰────────────⦁
 
-╭──❮ GROUP COMMANDS ❯
+*╭──❮ GROUP COMMANDS ❯*
 │
 │📖 COMMAND: .mute
 │ℹ️ Mute group
@@ -122,7 +122,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ group jid
 ╰────────────⦁
 
-╭──❮ OWNER COMMANDS ❯
+*╭──❮ OWNER COMMANDS ❯*
 │
 │📖 COMMAND: .update
 │ℹ️ update bot velue 
@@ -131,7 +131,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ restart your bot
 ╰────────────⦁
 
-╭──❮ CONVERT COMMANDS ❯
+*╭──❮ CONVERT COMMANDS ❯*
 │
 │📖 COMMAND: .sticker
 │ℹ️ convert photo to sticker
@@ -143,7 +143,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-> *https://github.com/SILENTLOVER4/SILENT-SOBX-MD*
+> https://github.com/SILENTLOVER4/SILENT-SOBX-MD
 
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 `
