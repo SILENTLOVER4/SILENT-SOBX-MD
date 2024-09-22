@@ -5,7 +5,7 @@ cmd({
 
     pattern: "menu",
 
-    react: "🪀",
+    react: "🛸",
 
     alias: ["panel","list","commands"],
 
@@ -22,18 +22,25 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
 try{
+const config = await readEnv();
+let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 
-let madeMenu =`*Hello* ${pushname}
+*⇆ ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ⇆*
+
+     *${pushname}*
+     
+❁ ════ ❃•◯•❃ ════ ❁
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *Welcome to UD MD Full Cammand List*
+      *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*Created By Umar Rehman👨🏻‍💻*
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ👨🏻‍💻*
 
-╭──❮ 𝗗𝗢𝗪𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
+
+╭──❮ DOWNLOAD COMMANDS ❯
 │
-│📖 COMMAND: .song
+│📖 COMMAND: .play
 │ℹ️ Download song from yt
 │ 
 │📖 COMMAND: .apk
@@ -64,13 +71,13 @@ let madeMenu =`*Hello* ${pushname}
 │ℹ️ Download xxx video
 ╰────────────⦁ 
 
-╭──❮ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
+╭──❮ SEARCH COMMANDS ❯
 │
 │📖 COMMAND: .yts
 │ℹ️ Serch videos from yt
 ╰────────────⦁  
 
-╭──❮‍ 𝗣𝗥𝗜𝗠𝗔𝗥𝗬 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
+╭──❮‍ MAIN COMMANDS ❯
 │
 │📖 COMMAND: .alive
 │ℹ️ Check online or not
@@ -80,16 +87,19 @@ let madeMenu =`*Hello* ${pushname}
 │  
 │📖 COMMAND: .menu
 │ℹ️ Nero main menu
+│
+│📖 COMMAND: .ai
+│ℹ️ chat with ai bot
 ╰────────────⦁
 
-╭──❮ 𝗢𝗧𝗛𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
+╭──❮ OTHER COMMANDS ❯
 │
 │📖 COMMAND: .hirunews/news
 │ℹ️ Get news result for life
 │ 
 │📖 COMMAND: .wabeta
 │ℹ️ Get whatsapp beta news
-│ 
+│
 │📖 COMMAND: .sitech
 │ℹ️ Get tech news
 │ 
@@ -97,7 +107,7 @@ let madeMenu =`*Hello* ${pushname}
 │ℹ️ Get nasa news
 ╰────────────⦁
 
-╭──❮ 𝗚𝗥𝗢𝗨𝗣 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
+╭──❮ GROUP COMMANDS ❯
 │
 │📖 COMMAND: .mute
 │ℹ️ Mute group
