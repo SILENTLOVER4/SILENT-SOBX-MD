@@ -2,48 +2,38 @@ const {readEnv} = require('../lib/database')
 const {cmd , commands} = require('../command')
 
 cmd({
+
     pattern: "menu",
-    react: "🍂",
-    desc: "get cmd list",
+
+    react: "🪀",
+
+    alias: ["panel","list","commands"],
+
+    desc: "Get bot\'s command list.",
+
     category: "main",
+
+    use: '.menu',
+
     filename: __filename
+
 },
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+
+async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+
 try{
-const config = await readEnv();
-let menu = {
-main: '',
-download: '',
-group: '',
-owner: '',
-convert: '',
-search: ''
-};
 
-for (let i = 0; i < commands.length; i++) {
-if (commands[i].pattern && !commands[i].dontAddCommandList) {
-menu[commands[i].category] += `➺${commands[i].pattern}\n`;
- }
-}
-
-let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
-
-*⇆ ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ⇆*
-
-     *${pushname}*
-     
-❁ ════ ❃•◯•❃ ════ ❁
+let madeMenu =`*Hello* ${pushname}
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
+      *Welcome to UD MD Full Cammand List*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ👨🏻‍💻*
+*Created By Umar Rehman👨🏻‍💻*
 
-
-╭──❮ DOWNLOAD COMMANDS ❯
+╭──❮ 𝗗𝗢𝗪𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
 │
-│📖 COMMAND: .play
+│📖 COMMAND: .song
 │ℹ️ Download song from yt
 │ 
 │📖 COMMAND: .apk
@@ -74,13 +64,13 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ Download xxx video
 ╰────────────⦁ 
 
-╭──❮ SEARCH COMMANDS ❯
+╭──❮ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
 │
 │📖 COMMAND: .yts
 │ℹ️ Serch videos from yt
 ╰────────────⦁  
 
-╭──❮‍ MAIN COMMANDS ❯
+╭──❮‍ 𝗣𝗥𝗜𝗠𝗔𝗥𝗬 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
 │
 │📖 COMMAND: .alive
 │ℹ️ Check online or not
@@ -90,19 +80,16 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │  
 │📖 COMMAND: .menu
 │ℹ️ Nero main menu
-│
-│📖 COMMAND: .ai
-│ℹ️ chat with ai bot
 ╰────────────⦁
 
-╭──❮ OTHER COMMANDS ❯
+╭──❮ 𝗢𝗧𝗛𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
 │
 │📖 COMMAND: .hirunews/news
 │ℹ️ Get news result for life
 │ 
 │📖 COMMAND: .wabeta
 │ℹ️ Get whatsapp beta news
-│
+│ 
 │📖 COMMAND: .sitech
 │ℹ️ Get tech news
 │ 
@@ -110,7 +97,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ Get nasa news
 ╰────────────⦁
 
-╭──❮ GROUP COMMANDS ❯
+╭──❮ 𝗚𝗥𝗢𝗨𝗣 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ❯
 │
 │📖 COMMAND: .mute
 │ℹ️ Mute group
@@ -125,58 +112,6 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │ℹ️ group jid
 ╰────────────⦁
 ╰────────────⦁
-
-╔═.✵.═════════.✵.═╗
-> *❂ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅs❂*
-╚═.✵.═════════.✵.═╝
-
-❁ ════ ❃•⇆•❃ ════ ❁
-${menu.download}
-❁ ════ ❃•⇆•❃ ════ ❁
-
-╔═.✵.═════════.✵.═╗
-> *❂ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs❂*
-╚═.✵.═════════.✵.═╝
-
-❁ ════ ❃•⇆•❃ ════ ❁
-${menu.main}
-❁ ════ ❃•⇆•❃ ════ ❁
-
-╔═.✵.═════════.✵.═╗
-> *❂ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅs❂*
-╚═.✵.═════════.✵.═╝
-
-❁ ════ ❃•⇆•❃ ════ ❁
-${menu.group}
-❁ ════ ❃•⇆•❃ ════ ❁
-
-╔═.✵.═════════.✵.═╗
-> *❂ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs❂*
-╚═.✵.═════════.✵.═╝
-
-❁ ════ ❃•⇆•❃ ════ ❁
-${menu.owner}
-❁ ════ ❃•⇆•❃ ════ ❁
-
-╔═.✵.═════════.✵.═╗
-> *❂ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅs❂*
-╚═.✵.═════════.✵.═╝
-
-❁ ════ ❃•⇆•❃ ════ ❁
-${menu.convert}
-❁ ════ ❃•⇆•❃ ════ ❁
-
-╔═.✵.═════════.✵.═╗
-> *❂sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅs❂*
-╚═.✵.═════════.✵.═╝
-
-❁ ════ ❃•⇆•❃ ════ ❁
-${menu.search}
-❁ ════ ❃•⇆•❃ ════ ❁
-
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛ_ʟᴏᴠᴇʀ⁴³²*
-
-╰━❁ ═══ ❃•⇆•❃ ═══ ❁━╯
 `
 
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
