@@ -34,31 +34,98 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
      
 ❁ ════ ❃•◯•❃ ════ ❁
 
-╭━━━⊱ 👤 *MENU* 👤 ⊱━━━╮
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━
+      *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*❖ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❖*
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ👨🏻‍💻*
 
-*ᴛʜᴇ ᴡᴏʀʟᴅ ʙᴇsᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²*
-       
-  ╰━━━━━━━━━━━━━━━━╯
+\`\`\`\
+╭──❮ DOWNLOAD COMMANDS ❯
+│
+│📖 COMMAND: .play
+│ℹ️ Download song from yt
+│ 
+│📖 COMMAND: .apk
+│ℹ️ Download apk from playstore
+│ 
+│📖 COMMAND: .video
+│ℹ️ Download video from yt
+│ 
+│📖 COMMAND: .fb
+│ℹ️ Download  video from fb
+│ 
+│📖 COMMAND: .tk
+│ℹ️ Download video from tiktok
+│ 
+│📖 COMMAND: .ig
+│ℹ️ Download video from ig
+│ 
+│📖 COMMAND: .gdrive
+│ℹ️ Download drive files
+│ 
+│📖 COMMAND: .wamod
+│ℹ️ Download wamod apk
+│
+│📖 COMMAND: .img
+│ℹ️ Download image
+│
+│📖 COMMAND: .xvideo
+│ℹ️ Download xxx video
+╰────────────⦁ 
 
-╭━━━⊱ 🌐 *ɪɴғᴏ* 🌐 ⊱━━━╮
-┝    *ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ᴛʏᴘᴇ*  ⏎
-┝     ◯◯[*ᴘᴜʙʟɪᴄ*]◯◯   ⏎
-┝     *ʙᴏᴛ ʟᴀɴɢᴜᴀɢᴇ*    ⏎
-┝    ◯◯[*ɴᴏᴅᴇ.ᴊs*]◯◯   ⏎
-┝     *ʙᴏᴛ ʙᴀɪʟᴇʏs ᴜsᴇs* ⏎
-┝   ◯◯[*ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ*]◯◯ ⏎
-┝       *ʙᴏᴛ ᴘʀᴇғɪx*     ⏎
-┝       ◯◯[*•*]◯◯      ⏎
-┝      *ʙᴏᴛ ᴅᴀᴛᴀʙᴀsᴇ*    ⏎
-┝      ◯◯[*ᴍᴏɴɢᴏᴅʙ*]◯◯ ⏎
-┝        *ʙᴏᴛ ᴏᴡɴᴇʀ*     ⏎
-┝   ◯◯[*sɪʟᴇɴᴛ ʟᴏᴠᴇʀ*]◯◯ ⏎
-╰━━━━━━━━━━━━━━━━━━━━╯
-❁ ════ ❃•◯•❃ ════ ❁
-*_🧑‍💻https://github.com/SILENTLOVER4/SILENT-SOBX-MD🧑‍💻_*
-❁ ════ ❃•◯•❃ ════ ❁
+╭──❮ SEARCH COMMANDS ❯
+│
+│📖 COMMAND: .yts
+│ℹ️ Serch videos from yt
+╰────────────⦁  
+
+╭──❮‍ MAIN COMMANDS ❯
+│
+│📖 COMMAND: .alive
+│ℹ️ Check online or not
+│  
+│📖 COMMAND: .ping
+│ℹ️ Check bot speed
+│  
+│📖 COMMAND: .menu
+│ℹ️ Nero main menu
+│
+│📖 COMMAND: .ai
+│ℹ️ chat with ai bot
+╰────────────⦁
+
+╭──❮ OTHER COMMANDS ❯
+│
+│📖 COMMAND: .hirunews/news
+│ℹ️ Get news result for life
+│ 
+│📖 COMMAND: .wabeta
+│ℹ️ Get whatsapp beta news
+│
+│📖 COMMAND: .sitech
+│ℹ️ Get tech news
+│ 
+│📖 COMMAND: .nasa
+│ℹ️ Get nasa news
+╰────────────⦁
+
+╭──❮ GROUP COMMANDS ❯
+│
+│📖 COMMAND: .mute
+│ℹ️ Mute group
+│
+│📖 COMMAND: .unmute
+│ℹ️ Unmute group
+│
+│📖 COMMAND: .left
+│ℹ️ left group
+│
+│📖 COMMAND: .jid
+│ℹ️ group jid
+╰────────────⦁
+╰────────────⦁
+\`\`\`\``
 ⇩━━━━━━━━❁━━━━━━━━⇩
 
 ╔═.✵.═════════.✵.═╗
