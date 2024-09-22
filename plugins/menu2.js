@@ -35,7 +35,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 ❁ ════ ❃•◯•❃ ════ ❁
 
 ⇩━━━━━━━━❁━━━━━━━━⇩
-│ RUNTIME: ${runtime(process.uptime())}
+│ RUNTIME: ${process.uptime())}
 │ MEMORY: ${process.memoryUsage()}
 ╰────────────────
 
