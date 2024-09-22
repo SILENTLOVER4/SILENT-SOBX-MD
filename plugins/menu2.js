@@ -31,7 +31,19 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 *⇆ ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ⇆*
 
      *${pushname}*
-     
+
+❁ ════ ❃•◯•❃ ════ ❁
+
+│ PREFIX: ${prefix}
+│ TIME: ${currentTime}
+│ DAY: ${currentDay}
+│ DATE: ${currentDate}
+│ PLUGINS: ${commands.length}
+│ RUNTIME: ${runtime(process.uptime())}
+│ MEMORY: ${getRAMUsage()}
+│ OS: ${getOS()}
+│ VERSION: ${require("../package.json").version}
+╰────────────────${readmore}\n`;
 ❁ ════ ❃•◯•❃ ════ ❁
 
 ╭━━━⊱ 👤 *MENU2* 👤 ⊱━━━╮
