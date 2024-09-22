@@ -35,10 +35,8 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 ❁ ════ ❃•◯•❃ ════ ❁
 
 ⇩━━━━━━━━❁━━━━━━━━⇩
-│ PLUGINS: ${commands.length}
 │ RUNTIME: ${runtime(process.uptime())}
-│ MEMORY: ${getRAMUsage()}
-│ OS: ${getOS()}
+│ MEMORY: ${process.memoryUsage()}
 ╰────────────────
 
 
