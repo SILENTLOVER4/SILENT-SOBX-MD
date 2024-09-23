@@ -47,7 +47,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
   ╰━━━━━━━━━━━━━━━━╯
 
 ❁ ════ ❃•◯•❃ ════ ❁
-*_🧑‍💻https://github.com/SILENTLOVER4/SILENT-SOBX-MD🧑‍💻_*
+*_https://github.com/SILENTLOVER4/SILENT-SOBX-MD_*
 ❁ ════ ❃•◯•❃ ════ ❁
 ⇩━━━━━━━━❁━━━━━━━━⇩
 
