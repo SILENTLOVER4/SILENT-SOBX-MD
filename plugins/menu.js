@@ -147,7 +147,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-> *https://github.com/SILENTLOVER4/SILENT-SOBX-MD🛰️*
+> *https://github.com/SILENTLOVER4/SILENT-SOBX-MD*
 
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
