@@ -92,7 +92,7 @@ await conn.sendMessage(from, { react: { text: '🎥', key: senda1.key }})
 
 cmd({
     pattern: "play",
-    alias: ["ytsong","song"],
+    alias: ["yta","song"],
     use: '.play koun umar',
     react: "🎧",
     desc: "Search & download yt song.",
