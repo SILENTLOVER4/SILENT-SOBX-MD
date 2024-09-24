@@ -41,6 +41,9 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 *╭──❮ DOWNLOAD COMMANDS ❯*
 │
 │📖 COMMAND: .play
+│ℹ️ Download Audio from yt
+│ 
+│📖 COMMAND: .song
 │ℹ️ Download song from yt
 │ 
 │📖 COMMAND: .apk
@@ -88,12 +91,18 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │📖 COMMAND: .menu
 │ℹ️ Nero main menu
 │
+│📖 COMMAND: .menu2
+│ℹ️ Nero main menu2
+│ 
 │📖 COMMAND: .ai
 │ℹ️ chat with ai bot
 │
 │📖 COMMAND: .system
 │ℹ️ check bot systems
 │
+│📖 COMMAND: .owner
+│ℹ️ get owner info
+│ 
 │📖 COMMAND: .menu
 │ℹ️ check bot runtime
 ╰────────────⦁
