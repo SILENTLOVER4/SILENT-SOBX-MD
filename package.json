@@ -30,6 +30,7 @@
     "whatsapp-web.js": "^1.4.1",
     "twilio": "^3.70.0",
     "wa-sticker-formatter": "4.4.4",
+    "cheerio": "1.0.0",
     "jimp": "^0.16.1"
   }
 }
