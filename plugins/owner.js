@@ -15,40 +15,15 @@ const {
 } = require('../lib/functions');
 
 cmd({
-  pattern: "owner ?(.*)",
-  alias: ["own"],
-  desc: "Owner commands",
-  category: "owner",
-  use: '.owner',
-  filename: __filename
-}, async (conn, mek, m, {
-  from,
-  l,
-  quoted,
-  body,
-  isCmd,
-  command,
-  args,
-  q,
-  isGroup,
-  sender,
-  senderNumber,
-  botNumber2,
-  botNumber,
-  pushname,
-  isMe,
-  isOwner,
-  groupMetadata,
-  groupName,
-  participants,
-  groupAdmins,
-  isBotAdmins,
-  isAdmins,
-  reply
-}) => {
-  try {
-    if (!isOwner) return reply('*Owner only!*');
-
+cmd({
+    pattern: "owner",
+    react: "☺️",
+    desc: "get owner info.",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
     const [_, cmdName] = body.split(' ');
     switch (cmdName?.toLowerCase()) {
       case "broadcast":
