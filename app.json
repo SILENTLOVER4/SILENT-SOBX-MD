@@ -1,6 +1,6 @@
 {
   "name": "SILENT-SOBX-MD",
-  "description": "Javascript WhatsApp bot made by Silentlover4",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²",
   "logo": "https://telegra.ph/file/3ef5623a33997cf948438.jpg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -10,16 +10,6 @@
       "description": "Put the session-id here.",
       "required": true
     },  
-
-    "ALIVE_IMG": {
-      "description": "Put your alive img here.",
-      "required": true
-    },
-    
-    "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
-      "required": true
-    },
 
     "MONGODB": {
       "description": "paste your mongodb url.",
