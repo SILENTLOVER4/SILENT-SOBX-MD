@@ -4,6 +4,7 @@ const {cmd , commands} = require('../command')
 cmd({
     pattern: "owner",
     react: "👑",
+    alais: [],
     desc: "get owner number",
     category: "main",
     filename: __filename
