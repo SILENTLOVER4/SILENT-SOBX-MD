@@ -105,7 +105,7 @@ mongodb+srv://su7465058:it583k0A4NbDPlE4@cluster0.eawwp3y.mongodb.net/?retryWrit
 
 ### <br>
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/SILENTLOVER4/SILENT-SOBX-MD)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/github.com/SILENTLOVER4/SILENT-SOBX-MD)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
