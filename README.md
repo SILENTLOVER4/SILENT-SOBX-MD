@@ -103,6 +103,12 @@ mongodb+srv://su7465058:it583k0A4NbDPlE4@cluster0.eawwp3y.mongodb.net/?retryWrit
 
 <p align="left"><a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2FSILENTLOVER4%2FSILENT-SOBX-MD&branch=main&nameprincegds&builder=dockerfile&env[DATABASE_URL]=&env[SESSION_ID]=your+sessionid+here&env[ALIVE_IMG]=your+image+url&env[ALIVE_MESSAGE]=your+alive+text"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" height="30"/></a></p>
 
+### <br>
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 <br>
