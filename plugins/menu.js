@@ -103,7 +103,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 │📖 COMMAND: .owner
 │ℹ️ get owner info
 │ 
-│📖 COMMAND: .menu
+│📖 COMMAND: .status
 │ℹ️ check bot runtime
 ╰────────────⦁
 
