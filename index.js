@@ -136,6 +136,50 @@ YOUR BOT ACTIVE NOW ENJOY♥️🪄\n\nPREFIX: ${prefix}`;
             const sender = mek.key.fromMe ? (conn.user.id.split(':')[0] + '@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid);
             const senderNumber = sender.split('@')[0];
             const botNumber = conn.user.id.split(':')[0];
-            const pushname = mek.pushName || 'Sin Nombre';
-            const isMe = botNumber.includes(senderNumber);
-            const isOwner = ownerNumber.includes(senderNumber) || isMe
+
+            const groupMetadata = isGroup ? await conn.groupMetadata(from) : '';
+            const groupName = isGroup ? groupMetadata.subject : '';
+            const groupMembers = isGroup ? groupMetadata.participants : '';
+            const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : '';
+            const isBotGroupAdmins = groupAdmins.includes(botNumber);
+            const isGroupAdmins = groupAdmins.includes(sender);
+
+            if (isCmd) l({ command, sender: senderNumber, isGroup });
+
+            switch (command) {
+                case 'menu':
+                    let buttons = [
+                        { buttonId: `.alive`, buttonText: { displayText: 'STATUS BOT 🛡️' }, type: 1 },
+                        { buttonId: `.ping`, buttonText: { displayText: 'SPEED TEST 📶' }, type: 1 },
+                    ];
+                    await conn.sendMessage(from, {
+                        image: { url: 'https://telegra.ph/file/2a06381b260c3f096a612.jpg' },
+                        caption: 'Here is the bot menu!',
+                        footer: 'Silent Sobx MD',
+                        buttons: buttons,
+                        headerType: 4
+                    });
+                    break;
+                default:
+                    if (isGroup && !isCmd) {
+                        console.log('Group chat message received but no command matched.');
+                    } else {
+                        console.log('Message received but no command matched.');
+                    }
+                    break;
+            }
+        } catch (err) {
+            console.error('Error in message handler: ', err);
+        }
+    });
+}
+
+connectToWA();
+
+app.get("/", (req, res) => {
+    res.send('Server is running. Please connect using WhatsApp.');
+});
+
+app.listen(port, () => {
+    console.log(`Server is listening on port ${port}`);
+});
