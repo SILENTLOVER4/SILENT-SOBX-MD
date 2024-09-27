@@ -13,7 +13,7 @@
 
     "MONGODB": {
       "description": "paste your mongodb url.",
-      "required": true
+      "required": false
     }
 },
 
