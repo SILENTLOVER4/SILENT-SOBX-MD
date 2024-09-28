@@ -28,7 +28,7 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-*Made With ♥  By umar Rehman*`;
+*MADE WITH ♥ SILENT-SOBX-MD*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
