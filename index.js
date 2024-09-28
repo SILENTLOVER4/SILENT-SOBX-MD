@@ -110,7 +110,7 @@ if (!mek.message) return
 mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
 if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true"){
 await conn.readMessages([mek.key])
-await conn.sendMessage(from,{my_data:auto_sticker.js{url:"https://github.com/SILENTLOVER4/EXAMPLE_DATABASE/raw/refs/heads/main/autosticker/STK-20240923-WA0026.webp"}})([mek.key])
+await conn.sendMessage(from,{my_data:autosticker.json{url:"https://github.com/SILENTLOVER4/EXAMPLE_DATABASE/raw/refs/heads/main/autosticker/STK-20240923-WA0026.webp"}})([mek.key])
 }
 const m = sms(conn, mek)
 const type = getContentType(mek.message)
