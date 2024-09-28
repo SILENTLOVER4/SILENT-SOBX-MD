@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 
 cmd({
     pattern: "about",
-    desc: "About For Umar Ai.",
+    desc: "About For SILENT MD.",
     category: "main",
     react: "🧟‍♂",
     filename: __filename
@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let des = `*👋 Hello ${pushname}*\n\n *I am Umar Rehman*\n\n *I am 18 years old Boy🔞*\n\n *I am from Rawalpindi *\n\n *I am Simple WhatsApp Bot Developer👨‍💻*\n\n\n Thank You.😊`
+let des = `*👋 HELLO ${pushname}*\n\n *I AM SILENT LOVER 432*\n\n *I AM 19 YEARS OLD BOY 🔞*\n\n *I AM FROM PERSNOL HAI😁🙈*\n\n *I AM SIMPLE WHATSAPP BOT DEVELOPER👨‍💻*\n\n\n THANK YOU.😊`
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
