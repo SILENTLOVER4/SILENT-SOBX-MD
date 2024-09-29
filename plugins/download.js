@@ -134,27 +134,61 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     }
 })
 
-//Instagram download 
+// Instagram download command
 cmd({
-    pattern: "ig",
-    alias: ["insta"],
-    desc: "download ig videos",
-    category: "download",
-    react: "📩",
-    filename: __filename
-},
-async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        if (!q && !q.startsWith("https://")) return reply("give me insta url")
-        //fetch data from api  
-        let response = await fetchJson('https://api.guruapi.tech/insta/v1/igdl?url=')
-        reply("*SILENT-SOBX-MD INSTAGRAM FILE DOWNLOADING...📥*")
-  for (let i=0;i<response.data.data.length;i++) {
-    if(response.data.data[i].type === 'image') await conn.sendMessage(from, { image: { url: response.data.data[i].url }, caption: config.FOOTER}, { quoted: mek })
-  else await conn.sendMessage(from, { video: { url: response.data.data[i].url }, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })
-  }
-    } catch (e) {
-        console.log(e)
-        reply(`${e}`)
+  pattern: "ig",
+  alias: ["insta"],
+  desc: "Download Instagram videos",
+  category: "download",
+  react: "📩",
+  filename: __filename,
+}, 
+async (conn, mek, m, {
+  from,
+  quoted,
+  body,
+  isCmd,
+  command,
+  args,
+  q,
+  isGroup,
+  sender,
+  senderNumber,
+  botNumber2,
+  botNumber,
+  pushname,
+  isMe,
+  isOwner,
+  groupMetadata,
+  groupName,
+  participants,
+  groupAdmins,
+  isBotAdmins,
+  isAdmins,
+  reply
+}) => {
+  try {
+    // Check if URL is provided
+    if (!q || !q.startsWith("https://")) {
+      return reply("Please provide Instagram video URL");
     }
+
+    // Fetch data from API
+    const apiUrl = `(https://api.guruapi.tech/insta/v1/igdl?url=);
+    const response = await fetchJson(apiUrl);
+
+    //Send video with/without watermark
+    const videoUrl = response.data;
+    const caption = `- NO-WATERMARK\n\n ${yourName}`;
+    await conn.sendMessage(from, {
+      video: { url: videoUrl },
+      mimetype: "video/mp4",
+      caption,
+    }, { quoted: mek });
+
+    reply("*SILENT-SOBX-MD INSTAGRAM VIDEO DOWNLOADED...📥*");
+  } catch (error) {
+    console.log(error);
+    reply(`Error: ${error.message}`);
+  }
 })
