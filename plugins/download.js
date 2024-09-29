@@ -147,10 +147,10 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
         if (!q && !q.startsWith("https://")) return reply("give me insta url")
         //fetch data from api
-        let response = await fetchJson('https://api.guruapi.tech/insta/v1/igdl?url=')
-        reply("*SILENT-SOBX-MD MEDIAFIRE FILE DOWNLOADING...📥*")
+        let response = await fetchJson(`${baseUrl}/api/instadl?url=${q}`)
+        reply("*SILENT-SOBX-MD INSTAGRAM DOWNLOADING...📥*")
   for (let i=0;i<response.data.data.length;i++) {
-    if(response.data.data[i].type === 'image') await conn.sendMessage(from, { image: { url: response.data.data[i].url }, caption: config.FOOTER}, { quoted: mek })
+    if(response.data.data[i].type === 'image') await conn.sendMessage(from, { image: { url: response.data.data[i].url }, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })
   else await conn.sendMessage(from, { video: { url: response.data.data[i].url }, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })
   }
     } catch (e) {
