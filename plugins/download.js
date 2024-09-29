@@ -147,11 +147,13 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
         if (!q && !q.startsWith("https://")) return reply("give me insta url")
         //fetch data from api  
-        let data = await fetchJson('https://api.guruapi.tech/insta/v1/igdl?url=')
-        reply("*SILENT-SOBX-MD INSTAGRAM VIDEO DOWNLOADING...📥*")
-        //send video (wm,nwm)
-        await conn.sendMessage(from, { video: { url: data.data }, mimetype: "video/mp4", caption: `- NO-WATERMARK\n\n ${yourName}` }, { quoted: mek })
-    
+        for (let i=0;i<response.data.data.length;i++) {
+        let response = await fetchJson(`https://api.guruapi.tech/insta/v1/igdl?url=`)
+        reply("*SILENT-SOBX-MD MEDIAFIRE FILE DOWNLOADING...📥*")
+  for (let i=0;i<response.data.data.length;i++) {
+    if(response.data.data[i].type === 'image') await conn.sendMessage(from, { image: { url: response.data.data[i].url }, caption: config.FOOTER}, { quoted: mek })
+  else await conn.sendMessage(from, { video: { url: response.data.data[i].url }, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })
+  }
     } catch (e) {
         console.log(e)
         reply(`${e}`)
