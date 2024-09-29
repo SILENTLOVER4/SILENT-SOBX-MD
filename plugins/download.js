@@ -134,61 +134,26 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     }
 })
 
-// Instagram download command
+//Instagram download 
 cmd({
-  pattern: "ig",
-  alias: ["insta"],
-  desc: "Download Instagram videos",
-  category: "download",
-  react: "📩",
-  filename: __filename,
-}, 
-async (conn, mek, m, {
-  from,
-  quoted,
-  body,
-  isCmd,
-  command,
-  args,
-  q,
-  isGroup,
-  sender,
-  senderNumber,
-  botNumber2,
-  botNumber,
-  pushname,
-  isMe,
-  isOwner,
-  groupMetadata,
-  groupName,
-  participants,
-  groupAdmins,
-  isBotAdmins,
-  isAdmins,
-  reply
-}) => {
-  try {
-    // Check if URL is provided
-    if (!q || !q.startsWith("https://")) {
-      return reply("Please provide Instagram video URL");
+    pattern: "ig",
+    alias: ["insta"],
+    desc: "download ig videos",
+    category: "download",
+    react: "📩",
+    filename: __filename
+},
+async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q && !q.startsWith("https://")) return reply("give me insta url")
+        //fetch data from api  
+        let data = await fetchJson('https://api.guruapi.tech/insta/v1/igdl?url=')
+        reply("*SILENT-SOBX-MD INSTAGRAM VIDEO DOWNLOADING...📥*")
+        //send video (wm,nwm)
+        await conn.sendMessage(from, { video: { url: data.data }, mimetype: "video/mp4", caption: `- NO-WATERMARK\n\n ${yourName}` }, { quoted: mek })
+    
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
     }
-
-    // Fetch data from API
-    const apiUrl = `(https://api.guruapi.tech/insta/v1/igdl?url=);
-    const response = await fetchJson(apiUrl);
-
-    //Send video with/without watermark
-    const videoUrl = response.data;
-    const caption = `- NO-WATERMARK\n\n ${yourName}`;
-    await conn.sendMessage(from, {
-      video: { url: videoUrl },
-      mimetype: "video/mp4",
-      caption,
-    }, { quoted: mek });
-
-    reply("*SILENT-SOBX-MD INSTAGRAM VIDEO DOWNLOADED...📥*");
-  } catch (error) {
-    console.log(error);
-    reply(`Error: ${error.message}`);
-  }
 })
