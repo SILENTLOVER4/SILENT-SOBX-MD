@@ -1,125 +1,171 @@
-
+const {readEnv} = require('../lib/database')
 const {cmd , commands} = require('../command')
 
 cmd({
+
     pattern: "menu",
-    desc: "menu the bot",
-    category: "menu",
-    react: "🗒️",
+
+    react: "🛸",
+
+    alias: ["panel","list","commands"],
+
+    desc: "Get bot\'s command list.",
+
+    category: "main",
+
+    use: '.menu',
+
     filename: __filename
+
 },
 
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+
 try{
+const config = await readEnv();
+let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 
-let dec = `*UMAR XD*
+*⇆ ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ⇆*
 
-> UMAR ALL MENU💗
+     *${pushname}*
+     
+❁ ════ ❃•◯•❃ ════ ❁
 
-🧬◦ *ɴᴀᴍᴇ ʙᴏᴛ* : ❖sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❖
-🧬◦ *ᴄʀᴇᴀᴛᴏʀ* : ➺ѕเℓεɳƭ_ℓσѵε૨࿐⚡
-🧬◦ *ᴠᴇʀsɪᴏɴs* : ᴠ.2.0.0⚡
-🧬◦ *ᴍᴇɴᴜ ᴄᴍᴅ* : ᴍᴇɴᴜ⚡
-🧬◦ *ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ* :  https://youtube.com/@silentlover432 ⚡
-🧬◦ *ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ* :  https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s ⚡
-🧬◦ *ᴄᴏɴᴛᴀᴄᴛ* : http://wa.me/+923096287432 ⚡
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━
+      *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*┌ 乂📥 ＤＯＷＮＬＯＡＤＥＲ📥 乂*
-*│◦ .ғʙ <ᴜʀʟ>*
-*│◦ .ɪɴꜱᴛᴀ <ᴜʀʟ>*
-*│◦ .ᴠɪᴅᴇᴏ <ᴜʀʟ>*
-*│◦ .ɢᴅʀɪᴠᴇ <ᴜʀʟ>*
-*│◦ .ᴛᴡɪᴛᴛᴇʀ <ᴜʀʟ>*
-*│◦ .ᴛᴛ<ᴜʀʟ>*
-*│◦ .ᴍᴇᴅɪᴀғɪʀᴇ <ᴜʀʟ>*
-*│◦ .ꜱᴏɴɢ <ϙᴜᴇʀʏ>*
-*│◦ .ꜱᴏɴɢ <ᴜʀʟ>*
-*│◦ .ᴠɪᴅᴇᴏ <ϙᴜᴇʀʏ>*
-*│◦ .ᴠɪᴅᴇᴏ <ᴜʀʟ>*
-*│◦ .ɪᴍɢ <ϙᴜᴇʀʏ>*
-*└◦ .ᴀᴘᴋ <ɴᴀᴍᴇ>*
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²👨🏻‍💻*
 
-*┌ 乂 🔎 S E A R C H 🔍乂*
-*│◦ .ʏᴛꜱ  <ᴛᴇxᴛ>*
-*│◦ .ʏᴛꜱ1 <ᴛᴇxᴛ>*
-*│◦ .ᴍᴏᴠɪᴇ <ᴛᴇxᴛ>*
-*└◦ .ɪᴍɢ <ᴛᴇxᴛ>*
 
-*┌ 乂 🧠 ＡＩ 🧠*
-*│◦ .ɢᴘᴛ <ᴛᴇxᴛ>*
-*└◦ .ᴀɪ <ᴛᴇxᴛ>*
+*╭──❮ DOWNLOAD COMMANDS ❯*
+│
+│📖 COMMAND: .play
+│ℹ️ Download Audio from yt
+│ 
+│📖 COMMAND: .song
+│ℹ️ Download song from yt
+│ 
+│📖 COMMAND: .apk
+│ℹ️ Download apk from playstore
+│ 
+│📖 COMMAND: .video
+│ℹ️ Download video from yt
+│ 
+│📖 COMMAND: .fb
+│ℹ️ Download  video from fb
+│ 
+│📖 COMMAND: .tk
+│ℹ️ Download video from tiktok
+│ 
+│📖 COMMAND: .ig
+│ℹ️ Download video from ig
+│ 
+│📖 COMMAND: .gdrive
+│ℹ️ Download drive files
+│ 
+│📖 COMMAND: .wamod
+│ℹ️ Download wamod apk
+│
+│📖 COMMAND: .img
+│ℹ️ Download image
+│
+│📖 COMMAND: .xvideo
+│ℹ️ Download xxx video
+╰────────────⦁ 
 
-*┌ 乂 👨‍💻ＯＷＮＥＲ 👨‍💻*
-*│◦ .ꜱᴜᴘᴘᴏʀᴛ*
-*│◦ .ꜱᴇᴛᴀᴜᴛᴏʙɪᴏ*
-*│◦ .ᴍᴜᴛᴇ*
-*│◦ .ᴜɴᴍᴜᴛᴇ*
-*│◦ .ᴏᴡɴᴇʀ*
-*│◦ .ʀᴇᴘᴏ*
-*│◦ .ꜱʏꜱᴛᴇᴍ*
-*│◦ .ꜱᴛᴀᴛᴜꜱ*
-*│◦ .ʙᴏᴛɪɴꜰᴏ*
-*└◦ .ʀᴇꜱᴛᴀʀᴛ*
+*╭──❮ SEARCH COMMANDS ❯*
+│
+│📖 COMMAND: .yts
+│ℹ️ Serch videos from yt
+╰────────────⦁  
 
-*┌ 乂 👥 ＧＲＯＵＰ 👥*
-*│◦ .ʀᴇᴍᴏᴠᴇ <ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴍsɢ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ>*
-*│◦ .ᴅᴇʟᴇᴛᴇ <ʀᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴍsɢ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ>*
-*│◦ .ᴀᴅᴅ*
-*│◦ .ᴋɪᴄᴋ*
-*│◦ .sᴇᴛɢᴏᴏᴅʙʏᴇ <ᴛᴇxᴛ>*
-*│◦ .sᴇᴛᴡᴇʟᴄᴏᴍᴇ <ᴛᴇxᴛ>*
-*│◦ .ᴘʀᴏᴍᴏᴛᴇ*
-*│◦ .ᴅᴇᴍᴏᴛᴇ*
-*│◦ .ꜱᴜᴘᴘᴏʀᴛ*
-*│◦ ɢᴇᴛᴘɪᴄ*
-*└◦ .ʟɪɴᴋ*
+*╭──❮‍ MAIN COMMANDS ❯*
+│
+│📖 COMMAND: .alive
+│ℹ️ Check online or not
+│  
+│📖 COMMAND: .ping
+│ℹ️ Check bot speed
+│  
+│📖 COMMAND: .menu
+│ℹ️ Nero main menu
+│
+│📖 COMMAND: .menu2
+│ℹ️ Nero main menu2
+│ 
+│📖 COMMAND: .ai
+│ℹ️ chat with ai bot
+│
+│📖 COMMAND: .system
+│ℹ️ check bot systems
+│
+│📖 COMMAND: .owner
+│ℹ️ get owner info
+│ 
+│📖 COMMAND: .status
+│ℹ️ check bot runtime
+╰────────────⦁
 
-*┌ 乂 📃 ＩＮＦＯ 📃*
-*│◦ .ᴍᴇɴᴜ*
-*│◦ .ᴀʟɪᴠᴇ
-*│◦ .ʀᴇʙᴏᴛ*
-*│◦ .ʀᴇꜱᴛᴀʀᴛ*
-*│◦ .ʙᴏᴛɪɴꜰᴏ*
-*│◦ .ꜱᴛᴀᴛᴜꜱ*
-*│◦ .ꜱᴜᴘᴘᴏʀᴛ*
-*│◦ .ᴘɪɴɢ*
-*└◦ .ꜱʏꜱᴛᴇᴍ*
+*╭──❮ OTHER COMMANDS ❯*
+│
+│📖 COMMAND: .hirunews/news
+│ℹ️ Get news result for life
+│ 
+│📖 COMMAND: .wabeta
+│ℹ️ Get whatsapp beta news
+│
+│📖 COMMAND: .sitech
+│ℹ️ Get tech news
+│ 
+│📖 COMMAND: .nasa
+│ℹ️ Get nasa news
+╰────────────⦁
 
-*┌ 乂 🎡ＣＯＮＶＥＲＴＥＲ 🎡*
-*└ ◦ .sᴛɪᴄᴋᴇʀ*
+*╭──❮ GROUP COMMANDS ❯*
+│
+│📖 COMMAND: .mute
+│ℹ️ Mute group
+│
+│📖 COMMAND: .unmute
+│ℹ️ Unmute group
+│
+│📖 COMMAND: .left
+│ℹ️ left group
+│
+│📖 COMMAND: .jid
+│ℹ️ group jid
+╰────────────⦁
 
-*┌ 乂 ⛱️ R A N D O M ⛱️*
-*│◦ .ᴜᴍᴀʀ*
-*│◦ .ᴅᴏɢ*
-*│◦ .ᴀɴɪᴍᴇ*
-*│◦ .ᴀɴɪᴍᴇɢɪʀʟ*
-*│◦ .ᴀɴɪᴍᴇɢɪʀʟ1*
-*│◦ .ᴀɴɪᴍᴇɢɪʀʟ2*
-*│◦ .ᴀɴɪᴍᴇɢɪʀʟ3*
-*│◦ .ᴀɴɪᴍᴇɢɪʀʟ4*
-*└◦ .ᴀɴɪᴍᴇɢɪʀʟ5*
+*╭──❮ OWNER COMMANDS ❯*
+│
+│📖 COMMAND: .update
+│ℹ️ update bot velue 
+│
+│📖 COMMAND: .restart 
+│ℹ️ restart your bot
+╰────────────⦁
 
-*┌ 乂 🏝️W A L L P A P E R🏖️*
-*└◦ .ɪᴍɢ*
+*╭──❮ CONVERT COMMANDS ❯*
+│
+│📖 COMMAND: .sticker
+│ℹ️ convert photo to sticker
+╰────────────⦁
 
-*┌ 乂 🔥 O Ｔ H E Ｒ 🔥*
-*│◦ .ɴᴇᴡꜱ*
-*│◦ .ᴡᴇᴀᴛʜᴇʀ*
-*│◦ .ᴛʀᴛ*
-*│◦ .ᴍᴏᴠɪᴇ*
-*│◦ .ꜰᴀᴄᴛ*
-*│◦ .ɢɪᴛʜᴜʙꜱᴛᴀʟᴋ*
-*│◦ .ɢᴘᴀꜱꜱ*
-*│◦ .ʜᴀᴄᴋ*
-*│◦ .ǫᴜᴏᴛᴇ*
-*│◦ .ꜱʀᴇᴘᴏ*
-*└◦ .ᴅᴇꜰɪɴᴇ*
 
-> *POWERED BY UMAR REHMAN*
 
-*SOBXMD BY UMAR*
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+> *https://github.com/SILENTLOVER4/SILENT-SOBX-MD*
+
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛ_ʟᴏᴠᴇʀ⁴³²*
+
+╰━❁ ═══ ❃•⇆•❃ ═══ ❁━╯
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/2a06381b260c3f096a612.jpg`},caption:dec},{quoted:mek});
+
+await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
