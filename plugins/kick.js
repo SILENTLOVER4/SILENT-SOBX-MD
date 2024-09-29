@@ -4,38 +4,13 @@ const {cmd, commands} = require('../command')
 cmd({
   pattern: "kick", 
   alias: ["remove"], 
-  react: "", 
+  react: "🦶", 
   desc: "kick member from group.", 
   category: "group", 
   filename: __filename,
-}, 
-async (conn, mek, m, { 
-  from, 
-  l, 
-  quoted, 
-  body, 
-  isCmd, 
-  command, 
-  args, 
-  q, 
-  isGroup, 
-  sender, 
-  senderNumber, 
-  botNumber2, 
-  botNumber, 
-  pushname, 
-  isMe, 
-  isOwner, 
-  groupMetadata, 
-  groupName, 
-  participants, 
-  isItzcp, 
-  groupAdmins, 
-  isBotAdmins, 
-  isAdmins, 
-  reply
-}) => {
-  try {
+},
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,  isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
     if (!isOwner || !isAdmins) return;
     if (!m.isGroup) return reply(mg.onlygroup);
     if (!isBotAdmins) return reply(mg.needbotadmins);
