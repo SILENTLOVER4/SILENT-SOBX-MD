@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 
 cmd({
 
-    pattern: "menu",
+    pattern: "menu1",
 
     react: "🛸",
 
@@ -13,7 +13,7 @@ cmd({
 
     category: "main",
 
-    use: '.menu',
+    use: '.menu1',
 
     filename: __filename
 
@@ -31,97 +31,10 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
      
 ❁ ════ ❃•◯•❃ ════ ❁
 
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²👨🏻‍💻*
+*┝⇆SILENT-SOBX-MD⇆┥*
 
-
-*╭──❮ DOWNLOAD COMMANDS ❯*
-│
-│📖 COMMAND: .play
-│ℹ️ Download Audio from yt
-│ 
-│📖 COMMAND: .song
-│ℹ️ Download song from yt
-│ 
-│📖 COMMAND: .apk
-│ℹ️ Download apk from playstore
-│ 
-│📖 COMMAND: .video
-│ℹ️ Download video from yt
-│ 
-│📖 COMMAND: .fb
-│ℹ️ Download  video from fb
-│ 
-│📖 COMMAND: .tk
-│ℹ️ Download video from tiktok
-│ 
-│📖 COMMAND: .ig
-│ℹ️ Download video from ig
-│ 
-│📖 COMMAND: .gdrive
-│ℹ️ Download drive files
-│ 
-│📖 COMMAND: .wamod
-│ℹ️ Download wamod apk
-│
-│📖 COMMAND: .img
-│ℹ️ Download image
-│
-│📖 COMMAND: .xvideo
-│ℹ️ Download xxx video
-╰────────────⦁ 
-
-*╭──❮ SEARCH COMMANDS ❯*
-│
-│📖 COMMAND: .yts
-│ℹ️ Serch videos from yt
-╰────────────⦁  
-
-*╭──❮‍ MAIN COMMANDS ❯*
-│
-│📖 COMMAND: .alive
-│ℹ️ Check online or not
-│  
-│📖 COMMAND: .ping
-│ℹ️ Check bot speed
-│  
-│📖 COMMAND: .menu
-│ℹ️ Nero main menu
-│
-│📖 COMMAND: .menu2
-│ℹ️ Nero main menu2
-│ 
-│📖 COMMAND: .ai
-│ℹ️ chat with ai bot
-│
-│📖 COMMAND: .system
-│ℹ️ check bot systems
-│
-│📖 COMMAND: .owner
-│ℹ️ get owner info
-│ 
-│📖 COMMAND: .status
-│ℹ️ check bot runtime
-╰────────────⦁
-
-*╭──❮ OTHER COMMANDS ❯*
-│
-│📖 COMMAND: .hirunews/news
-│ℹ️ Get news result for life
-│ 
-│📖 COMMAND: .wabeta
-│ℹ️ Get whatsapp beta news
-│
-│📖 COMMAND: .sitech
-│ℹ️ Get tech news
-│ 
-│📖 COMMAND: .nasa
-H`*UMAR XD*
-
-> UMAR ALL MENU💗
+> SILENT-SOBX-MD ALL MENU💗
 
 🧬◦ *ɴᴀᴍᴇ ʙᴏᴛ* : ❖sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❖
 🧬◦ *ᴄʀᴇᴀᴛᴏʀ* : ➺ѕเℓεɳƭ_ℓσѵε૨࿐⚡
@@ -183,7 +96,7 @@ H`*UMAR XD*
 
 *┌ 乂 📃 ＩＮＦＯ 📃*
 *│◦ .ᴍᴇɴᴜ*
-*│◦ .ᴀʟɪᴠᴇ
+*│◦ .ᴀʟɪᴠᴇ*
 *│◦ .ʀᴇʙᴏᴛ*
 *│◦ .ʀᴇꜱᴛᴀʀᴛ*
 *│◦ .ʙᴏᴛɪɴꜰᴏ*
@@ -196,7 +109,7 @@ H`*UMAR XD*
 *└ ◦ .sᴛɪᴄᴋᴇʀ*
 
 *┌ 乂 ⛱️ R A N D O M ⛱️*
-*│◦ .ᴜᴍᴀʀ*
+*│◦ .ᴋɪɴɢ*
 *│◦ .ᴅᴏɢ*
 *│◦ .ᴀɴɪᴍᴇ*
 *│◦ .ᴀɴɪᴍᴇɢɪʀʟ*
@@ -222,7 +135,7 @@ H`*UMAR XD*
 *│◦ .ꜱʀᴇᴘᴏ*
 *└◦ .ᴅᴇꜰɪɴᴇ*
 
-> *POWERED BY UMAR REHMAN*
+> *POWERED BY SILENTLOVER432*
 ╰━❁ ═══ ❃•⇆•❃ ═══ ❁━╯
 `
 
