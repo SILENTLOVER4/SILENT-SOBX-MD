@@ -3,7 +3,7 @@ const {cmd , commands} = require('../command')
 
 cmd({
 
-    pattern: "menu",
+    pattern: "menu3",
 
     react: "🛸",
 
@@ -13,7 +13,7 @@ cmd({
 
     category: "main",
 
-    use: '.menu',
+    use: '.menu3',
 
     filename: __filename
 
