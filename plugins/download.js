@@ -27,7 +27,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
         if (!q && !q.startsWith("https://")) return reply("give me fb url")
         //fetch data from api  
-        let data = await fetchJson(`${baseUrl}/api/fdown?url=${q}`)
+        let data = await fetchJson(`${baseUrl}/api/fbdown?url=${q}`)
         reply("*SILENT-SOBX-MD FACEBOOK VIDEO DOWNLOADING...📥*")
         //send video (hd,sd)
         await conn.sendMessage(from, { video: { url: data.data.hd }, mimetype: "video/mp4", caption: `- HD\n\n ${yourName}` }, { quoted: mek })
@@ -145,14 +145,11 @@ cmd({
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        if (!q && !q.startsWith("https://")) return reply("give me insta url")
-        //fetch data from api
-        let response = await fetchJson(`${baseUrl}/api/instadl?url=${q}`)
+        if (!q && !q.startsWith("https://")) return reply("give me mediafire url")
+        //fetch data from api  
+        let data = await fetchJson(`${baseUrl}/api/igdl?url=${q}`)
         reply("*SILENT-SOBX-MD INSTAGRAM DOWNLOADING...📥*")
-  for (let i=0;i<response.data.data.length;i++) {
-    if(response.data.data[i].type === 'image') await conn.sendMessage(from, { image: { url: response.data.data[i].url }, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })
-  else await conn.sendMessage(from, { video: { url: response.data.data[i].url }, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })
-  }
+        await conn.sendMessage(from, { video: { url: data.data }, mimetype: data.data.file_type, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
     } catch (e) {
         console.log(e)
         reply(`${e}`)
