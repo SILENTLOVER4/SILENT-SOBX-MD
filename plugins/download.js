@@ -146,9 +146,8 @@ cmd({
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         if (!q && !q.startsWith("https://")) return reply("give me insta url")
-        //fetch data from api  
-        for (let i=0;i<response.data.data.length;i++) {
-        let response = await fetchJson(`https://api.guruapi.tech/insta/v1/igdl?url=`)
+        //fetch data from api
+        let response = await fetchJson('https://api.guruapi.tech/insta/v1/igdl?url=')
         reply("*SILENT-SOBX-MD MEDIAFIRE FILE DOWNLOADING...📥*")
   for (let i=0;i<response.data.data.length;i++) {
     if(response.data.data[i].type === 'image') await conn.sendMessage(from, { image: { url: response.data.data[i].url }, caption: config.FOOTER}, { quoted: mek })
