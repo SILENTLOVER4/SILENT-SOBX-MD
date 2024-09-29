@@ -145,10 +145,10 @@ cmd({
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        if (!q && !q.startsWith("https://")) return reply("give me tiktok url")
+        if (!q && !q.startsWith("https://")) return reply("give me insta url")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/igdl?url=${q}`)
-        reply("*SILENT-SOBX-MD TIKTOK VIDEO DOWNLOADING...📥*")
+        reply("*SILENT-SOBX-MD INSTAGRAM VIDEO DOWNLOADING...📥*")
         //send video (wm,nwm)
         await conn.sendMessage(from, { video: { url: data.data.no_wm }, mimetype: "video/mp4", caption: `- NO-WATERMARK\n\n ${yourName}` }, { quoted: mek })
         await conn.sendMessage(from, { video: { url: data.data.wm }, mimetype: "video/mp4", caption: `- WITH-WATERMARK \n\n ${yourName}` }, { quoted: mek })  
