@@ -150,8 +150,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         let data = await fetchJson(`https://api.guruapi.tech/insta/v1/igdl?url=`)
         reply("*SILENT-SOBX-MD INSTAGRAM VIDEO DOWNLOADING...📥*")
         //send video (wm,nwm)
-        await conn.sendMessage(from, { video: { url: data.data.no_wm }, mimetype: "video/mp4", caption: `- NO-WATERMARK\n\n ${yourName}` }, { quoted: mek })
-        await conn.sendMessage(from, { video: { url: data.data.wm }, mimetype: "video/mp4", caption: `- WITH-WATERMARK \n\n ${yourName}` }, { quoted: mek })  
+        await conn.sendMessage(from, { video: { url: data }, mimetype: "video/mp4", caption: `- NO-WATERMARK\n\n ${yourName}` }, { quoted: mek })
     
     } catch (e) {
         console.log(e)
