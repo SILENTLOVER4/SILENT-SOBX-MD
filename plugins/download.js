@@ -147,9 +147,9 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
         if (!q && !q.startsWith("https://")) return reply("give me mediafire url")
         //fetch data from api  
-        let data = await fetchJson(`${baseUrl}/api/igdown?url=${q}`)
+        let data = await fetchJson(`${baseUrl}/api/igdl?url=${q}`)
         reply("*SILENT-SOBX-MD INSTAGRAM DOWNLOADING...📥*")
-        await conn.sendMessage(from, { video: { url: data.data }, mimetype: data.data.file_type, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
+        await conn.sendMessage(from, { video: { url: data.data.no_wm }, mimetype: "video/mp4", caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
     } catch (e) {
         console.log(e)
         reply(`${e}`)
