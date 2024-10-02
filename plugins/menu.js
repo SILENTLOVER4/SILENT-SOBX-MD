@@ -31,8 +31,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
      
 ❁ ════ ❃•◯•❃ ════ ❁
 
-
-*┝⇆SILENT-SOBX-MD⇆┥*
+*⇆SILENT-SOBX-MD⇆*
 
 > SILENT-SOBX-MD ALL MENU💗
 
@@ -42,7 +41,6 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 🧬◦ *ᴍᴇɴᴜ ᴄᴍᴅ* : ᴍᴇɴᴜ⚡
 🧬◦ *ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ* :  https://youtube.com/@silentlover432 ⚡
 🧬◦ *ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ* :  https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s ⚡
-🧬◦ *ᴄᴏɴᴛᴀᴄᴛ* : http://wa.me/+923096287432 ⚡
 
 *┌ 乂📥 ＤＯＷＮＬＯＡＤＥＲ📥 乂*
 *│◦ .ғʙ <ᴜʀʟ>*
