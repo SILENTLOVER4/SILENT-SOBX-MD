@@ -3,6 +3,7 @@ const {cmd , commands} = require('../command');
 
 cmd({
     pattern: "trt",
+    alias: ["translate"],
     desc: "🌍 Translate text between languages",
     react: "⚡",
     category: "other",
