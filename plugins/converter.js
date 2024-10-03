@@ -1,7 +1,7 @@
 const config = require('../config');
 const { bot, Mode, toAudio, webp2mp4, convertToWebP } = require('../lib');
-bot(
- {
+const {cmd , commands} = require('../command')
+cmd({
   pattern: 'sticker',
   fromMe: false,
   desc: 'Converts Photo/video/text to sticker',
@@ -16,8 +16,7 @@ bot(
  }
 );
 
-bot(
- {
+cmd({
   pattern: 'take',
   fromMe: false,
   desc: 'Converts Photo or video to sticker',
@@ -32,8 +31,7 @@ bot(
  }
 );
 
-bot(
- {
+cmd({
   pattern: 'photo',
   fromMe: false,
   desc: 'Changes sticker to Photo',
@@ -46,8 +44,7 @@ bot(
  }
 );
 
-bot(
- {
+cmd({
   pattern: 'mp3',
   fromMe: false,
   desc: 'Converts video/voice to mp3',
@@ -60,8 +57,7 @@ bot(
  }
 );
 
-bot(
- {
+cmd({
   pattern: 'mp4',
   fromMe: false,
   desc: 'converts video/voice to mp4',
@@ -79,8 +75,7 @@ bot(
  }
 );
 
-bot(
- {
+cmd({
   pattern: 'img',
   fromMe: false,
   desc: 'Converts Sticker to image',
