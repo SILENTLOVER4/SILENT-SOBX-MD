@@ -19,8 +19,6 @@ await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/3d9732d2657d2d
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/8daf7e432a646f3ebe7eb.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7514b18ea89da924e7496.jpg`},caption:dec},{quoted:mek});
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/ce9cb5acd2cec7693d76b.jpg`},caption:dec},{quoted:mek});
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/008937b5ef96545fab4f3.jpg`},caption:dec},{quoted:mek});
-
 
 }catch(e){
 console.log(e)
