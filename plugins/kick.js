@@ -22,7 +22,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             const jid = parsedJid(key.id);
             await message.client.groupParticipantsUpdate(message.jid, jid, "remove");
             await message.send(`_@${jid[0].split("@")[0]} kicked successfully_`, { mentions: jid });
-      } catch (e) {
+        }
+       }
+   } catch (e) {
         console.log(e)
         reply(`${e}`)
     }
