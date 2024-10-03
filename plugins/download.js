@@ -145,12 +145,18 @@ cmd({
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        if (!q && !q.startsWith("https://")) return reply("give me an Instagram url")
-        //fetch data from api  
-        let data = await fetchJson(`${baseUrl}/api/igdl?url=${q}`)
-        reply("*SILENT-SOBX-MD INSTAGRAM DOWNLOADING...📥*")
-        await conn.sendMessage(from, { video: { url: data.data }, mimetype: "video/mp4", caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
-    } catch (e) {
+        async (message, match, m, client) => {
+  if (!match || !match.includes('instagram.com')) return await message.sendReply('*_Provide a Valid Instagram URL_*');
+  const msg = await message.reply('_Downloading_');
+  await msg.react('⬇️');
+  const res = await getJson(`https://api.guruapi.tech/insta/v1/igdl?url=${encodeURIComponent(match.trim())}`);
+
+  if (res) {
+   await msg.edit('_Download Success_');
+   await msg.react('✅');
+   const extarctedUrl = res.media[0].url.replace(/'/g, '');
+   return await message.send(extarctedUrl, { quoted: msg });
+  } catch (e) {
         console.log(e)
         reply(`${e}`)
     }
