@@ -48,29 +48,35 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
-cmd({
-    pattern: "nikal",
-    desc: "Remove a member from the group.",
+md({
+    pattern: "kick",
+    react: "🥏",
+    alias: ["remove"],
+    desc: "To Remove a participant from Group",
     category: "group",
-    react: "🚫",
+    use: '.kick',
     filename: __filename
 },
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        if (!isGroup) return reply('This command can only be used in a group.')
-        if (!isBotAdmins) return reply('Bot must be an admin to use this command.')
-        if (!isAdmins) return reply('You must be an admin to use this command.')
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, mentionByTag , args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
+try{
+const msr = (await fetchJson('https://raw.githubusercontent.com/Um4r719/UD-MD-DATA/refs/heads/main/DATABASE/mreply.json')).replyMsg
 
-        const user = m.mentioned[0] || m.quoted?.sender
-        if (!user) return reply('Please tag or reply to a user to remove.')
+if (!isGroup) return reply(msr.only_gp)
+if (!isAdmins) { if (!isDev) return reply(msr.you_adm),{quoted:mek }} 
+if (!isBotAdmins) return reply(msr.give_adm)
+  
+		let users = mek.mentionedJid ? mek.mentionedJid[0] : mek.msg.contextInfo.participant || false;
+			if (!users) return reply("*Couldn't find any user in context* ❌")
 
-        await conn.groupParticipantsUpdate(from, [user], 'remove')
-        await reply(`@${user.split('@')[0]} has been removed from the group.`, { mentions: [user] })
-    } catch (e) {
-        console.log(e)
-        reply(`${e}`)
-    }
-})
+			await conn.groupParticipantsUpdate(from, [users], "remove")
+			await conn.sendMessage(from,{text:`*Successfully removed*  ✔️`},{quoted:mek })
+	
+} catch (e) {
+await conn.sendMessage(from, { react: { text: '❌', key: mek.key } })
+console.log(e)
+reply(`❌ *Error Accurated !!*\n\n${e}`)
+}
+} )
 
 cmd({
     pattern: "add",
@@ -119,6 +125,90 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
+
+cmd({
+    pattern: "tagall",
+    react: "🔊",
+    alias: ["f_tagall"],
+    desc: "To Tag all Members",
+    category: "group",
+    use: '.tagall',
+    filename: __filename
+},
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, mentionByTag , args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
+try{
+const msr = (await fetchJson('https://raw.githubusercontent.com/Um4r719/UD-MD-DATA/refs/heads/main/DATABASE/mreply.json')).replyMsg
+
+if (!isGroup) return reply(msr.only_gp)
+if (!isAdmins) { if (!isDev) return reply(msr.you_adm),{quoted:mek }} 
+if (!isBotAdmins) return reply(msr.give_adm)
+
+		let teks = `💱 *HI ALL ! GIVE YOUR ATTENTION PLEASE* 
+ 
+`
+                for (let mem of participants) {
+                teks += `😽 @${mem.id.split('@')[0]}\n`
+                }
+                conn.sendMessage(from, { text: teks, mentions: participants.map(a => a.id) }, { quoted: mek })
+                
+} catch (e) {
+await conn.sendMessage(from, { react: { text: '❌', key: mek.key } })
+console.log(e)
+reply(`❌ *Error Accurated !!*\n\n${e}`)
+}
+} )
+
+cmd({
+    pattern: "hidetag",
+    react: "🔊",
+    alias: ["tag","f_tag"],
+    desc: "To Tag all Members for Message",
+    category: "group",
+    use: '.tag Hi',
+    filename: __filename
+},
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, mentionByTag , args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
+try{
+const msr = (await fetchJson('https://raw.githubusercontent.com/Um4r719/UD-MD-DATA/refs/heads/main/DATABASE/mreply.json')).replyMsg
+
+if (!isGroup) return reply(msr.only_gp)
+if (!isAdmins) { if (!isDev) return reply(msr.you_adm),{quoted:mek }} 
+if (!isBotAdmins) return reply(msr.give_adm)
+	
+		if(!q) return reply('*Please add a Message* ℹ️')
+		let teks = `${q}`
+                conn.sendMessage(from, { text: teks, mentions: participants.map(a => a.id) }, { quoted: mek })
+                
+} catch (e) {
+await conn.sendMessage(from, { react: { text: '❌', key: mek.key } })
+console.log(e)
+reply(`❌ *Error Accurated !!*\n\n${e}`)
+}
+} )
+
+cmd({
+    pattern: "taggp",
+    react: "🔊",
+    alias: ["tggp","f_taggp"],
+    desc: "To Tag all Members for Message",
+    category: "group",
+    use: '.tag Hi',
+    filename: __filename
+},
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, mentionByTag , args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
+try{
+		if ( !m.quoted ) return reply('*Please mention a message* ℹ️')
+		if(!q) return reply('*Please add a Group Jid* ℹ️')
+		//if ( q == "120363174739054837@g.us" ) { if ( !isDev ) return reply("❌ *Acai wage ! You can send Tag messages to Official Support Group*") }
+		let teks = `${m.quoted.msg}`
+        conn.sendMessage(q, { text: teks, mentions: participants.map(a => a.id) }, { quoted: mek })
+                
+} catch (e) {
+await conn.sendMessage(from, { react: { text: '❌', key: mek.key } })
+console.log(e)
+reply(`❌ *Error Accurated !!*\n\n${e}`)
+}
+} )
 
 cmd({
     pattern: "setwelcome",
