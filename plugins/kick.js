@@ -10,7 +10,6 @@ cmd({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-}, async (message, match) => {
     if (!message.isGroup) return await message.send("_This command is for groups_");   
     match = message.mention?.jid?.[0] || message.reply_message?.sender || match;
     if (!match) return await message.reply("_Reply to someone/mention_\n*Example:* .kick @user");    
@@ -23,7 +22,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             const jid = parsedJid(key.id);
             await message.client.groupParticipantsUpdate(message.jid, jid, "remove");
             await message.send(`_@${jid[0].split("@")[0]} kicked successfully_`, { mentions: jid });
-    }
       } catch (e) {
         console.log(e)
         reply(`${e}`)
