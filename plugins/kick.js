@@ -7,7 +7,8 @@ cmd({
     category: "group",
     react: "🥾",
     filename: __filename
-}, async (sock, chat, args) => {
+}, async(conn, mek, m,{from, l, quoted, body, isCmd, command, mentionByTag , args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
+try{
     // Check if the command has sufficient arguments
     if (args.length < 1) {
         return sock.sendMessage(chat.id, { text: "Please provide the user ID to kick." });
