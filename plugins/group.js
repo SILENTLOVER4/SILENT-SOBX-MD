@@ -49,12 +49,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 })
 cmd({
-    pattern: "kick",
+    pattern: "fuck",
     react: "🥏",
     alias: ["remove"],
     desc: "To Remove a participant from Group",
     category: "group",
-    use: '.kick',
+    use: '.fuck',
     filename: __filename
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, mentionByTag , args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
@@ -79,7 +79,7 @@ reply(`❌ *Error Accurated !!*\n\n${e}`)
 } )
 
 cmd({
-    pattern: "add",
+    pattern: "come",
     desc: "Add a member to the group.",
     category: "group",
     react: "➕",
