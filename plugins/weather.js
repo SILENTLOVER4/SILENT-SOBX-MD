@@ -1,24 +1,3 @@
-//   █▀▀▀ █  █ █  █ █▀▀█ █▀▀▀      █▀▄▀█ █▀▀▄ 
-//   ▀▀▀█ █  █ █▀▀█ █▀▀█ ▀▀▀█  ▀▀  █ ▀ █ █  █
-//   ▀▀▀▀ ▀▀▀▀ ▀  ▀ ▀  ▀ ▀▀▀▀      ▀   ▀ ▀▀▀
-
-
-
-// * Project name - SUHAS- MD 
-// * Author - Suhas Pathsindu
-// * Team - Suhas Bro 
-// * Version - V2
-
-// World best and powerfull whatsapp user bot in Sri lanka
-//🧬©ꜱᴜʜᴀꜱ-ᴍᴅ ʙʏ ꜱᴜᴀʜꜱ ᴘᴀᴛʜꜱɪɴᴅᴜッ
-
-
-
-
-
-
-
-
 const axios = require('axios');
 const config = require('../config');
 const { cmd, commands } = require('../command');
@@ -42,7 +21,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const data = response.data;
 
         const weather = `
-🌍 *SUHAS-MD Weather Information for ${data.name}, ${data.sys.country}* 🌍
+🌍 *SILENT-SOBX-MD Weather Information for ${data.name}, ${data.sys.country}* 🌍
 
 🌡️ *Temperature*: ${data.main.temp}°C
 
@@ -62,7 +41,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 📌 *Pressure*: ${data.main.pressure} hPa
 
-*🧬©ꜱᴜʜᴀꜱ-ᴍᴅ ʙʏ ꜱᴜᴀʜꜱ ᴘᴀᴛʜꜱɪɴᴅᴜッ🇱🇰*
+*🧬©ꜱɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙʏ ꜱɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²ッ*
 `;
 
         return reply(weather);
