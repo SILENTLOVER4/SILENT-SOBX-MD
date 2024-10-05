@@ -7,7 +7,7 @@ cmd({
 
     react: "🛸",
 
-    alias: ["panel","list","commands"],
+    alias: ["panel","commands"],
 
     desc: "Get bot\'s command list.",
 
