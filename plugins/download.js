@@ -137,7 +137,6 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
 //Instagram download 
 cmd({
     pattern: "ig",
-    alias: ["insta"],
     desc: "download ig videos",
     category: "download",
     react: "📩",
