@@ -1,24 +1,3 @@
-//   █▀▀▀ █  █ █  █ █▀▀█ █▀▀▀      █▀▄▀█ █▀▀▄ 
-//   ▀▀▀█ █  █ █▀▀█ █▀▀█ ▀▀▀█  ▀▀  █ ▀ █ █  █
-//   ▀▀▀▀ ▀▀▀▀ ▀  ▀ ▀  ▀ ▀▀▀▀      ▀   ▀ ▀▀▀
-
-
-
-// * Project name - SUHAS- MD 
-// * Author - Suhas Pathsindu
-// * Team - Suhas Bro 
-// * Version - V2
-
-// World best and powerfull whatsapp user bot in Sri lanka
-//🧬©ꜱᴜʜᴀꜱ-ᴍᴅ ʙʏ ꜱᴜᴀʜꜱ ᴘᴀᴛʜꜱɪɴᴅᴜッ
-
-
-
-
-
-
-
-
 const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
@@ -36,15 +15,15 @@ try{
 
 
 
-let about = ` *👋 Hello.How are You? ${pushname}*
+let about = ` *👋 HELLO.HOW ARE YOU? ${pushname}*
 
-*🦄 *SUHAS-MD Support Channels* 🦄
+*🌐SILENT-SOBX-MD SUPPORT CHANNELS*
 
-*🌈Whatsapp Channel Link:* ➸ https://whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o
+*🔷️WHATSAPP CHANNEL LINK:* https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s
 
-*🌈YouTube Channel Link:* ➸ https://youtube.com/@suhasbro
+*🌈YOUTUBE CHANNEL LINK :* https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7
 
-*🧬©ꜱᴜʜᴀꜱ-ᴍᴅ ʙʏ ꜱᴜᴀʜꜱ ᴘᴀᴛʜꜱɪɴᴅᴜッ🇱🇰*`
+*🧬SILENT-SOBX-MD BY SILENTLOVER432*`
 
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption:about},{quoted: mek})
 }catch(e){
