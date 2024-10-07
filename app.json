@@ -12,8 +12,9 @@
     },  
 
     "MONGODB": {
-      "description": "paste your mongodb url.",
+      "description": "you can use this public mongodb url if you have your personal key you can paste him.",
       "required": true
+      "value": "mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=majority"
     }
 },
 
