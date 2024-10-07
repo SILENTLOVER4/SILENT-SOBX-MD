@@ -5,15 +5,18 @@
   "keywords": ["bot"],
   "success_url": "/",
 
+    "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
-      "required": true
+      "required": true,
+      "value" ""
     },  
 
     "MONGODB": {
       "description": "you can use this public mongodb url if you have your personal key you can paste him.",
-      "required": true
+      "required": true,
+      "value" "put"
     }
 },
 
