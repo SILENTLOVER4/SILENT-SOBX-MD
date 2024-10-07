@@ -6,6 +6,7 @@ const { cmd, commands } = require('../command');
 cmd({
   pattern: "updatecmd",
   desc: "Update commands.",
+  react: "😮‍💨",
   category: "owner",
   filename: __filename
 },
