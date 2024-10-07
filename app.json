@@ -17,7 +17,19 @@
       "description": "you can use this public mongodb url if you have your personal key So you can use him.",
       "required": true,
       "value": "mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=majority"
-    }
+      
+    },
+    "STATUS_MESSAGE": {
+      "description": "Type your status reply message to send auto message to your contacts status",
+      "required": false,
+      "value": "🩵ʏᴏᴜʀ sᴛᴀᴛᴜs sᴇᴇɴ sᴜᴄᴄᴇssғᴜʟʟʏ😍\n😎ʙʏ *SILENT-SOBX-MD* ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ🩵"
+      
+      },
+    "STATUS_REPLY": {
+      "description": "Make it true or false to turn on/off Auto status message to your contacts",
+      "required": false,
+      "value": "true"
+     }
 },
 
      "buildpacks": [
