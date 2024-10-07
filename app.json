@@ -10,13 +10,13 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value" ""
+      "value": ""
     },  
 
     "MONGODB": {
       "description": "you can use this public mongodb url if you have your personal key you can paste him.",
       "required": true,
-      "value" "put"
+      "value": "mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=majority"
     }
 },
 
