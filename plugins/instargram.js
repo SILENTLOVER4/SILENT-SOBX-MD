@@ -39,7 +39,7 @@ try{
 
   await m.react('⚡');
   let video = data.url;
-  let dev = '*🧬©ꜱᴜʜᴀꜱ-ᴍᴅ ʙʏ ꜱᴜᴀʜꜱ ᴘᴀᴛʜꜱɪɴᴅᴜッ🇱🇰*'
+  let dev = '*🧬SILENT-SOBX-MD INSTAGRAM DOWNLOAD*'
   
   try {
     await conn.sendMessage(m.chat, { video: { url: video }, caption: dev, fileName: 'ig.mp4', mimetype: 'video/mp4' }, { quoted: m });
