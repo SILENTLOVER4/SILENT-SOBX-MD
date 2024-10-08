@@ -40,7 +40,7 @@ await conn.sendMessage(from , { text:  mesaj }, { quoted: mek } )
 
 cmd({
     pattern: "video",
-    alias: ["ytvideo","ytv"],
+    alias: ["ytvideo","ytv","drama"],
     use: '.video sameer kanjr',
     react: "📽️",
     desc: "Search & download yt videos.",
