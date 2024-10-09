@@ -32,7 +32,6 @@
     "wa-sticker-formatter": "4.4.4",
     "cheerio": "1.0.0",
     "jimp": "^0.16.1",
-    "body-parser": "^1.20.3",
-    "express-json": "^0.5.1"
+    "body-parser": "^1.20.3"
   }
 }
