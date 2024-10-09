@@ -98,7 +98,7 @@ https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7🔰
 ╰━━━━━━━━━━━━━━━━━╯
 
 YOUR BOT ACTIVE NOW ENJOY♥️🪄\n\nPREFIX: ${prefix}`;
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/2a06381b260c3f096a612.jpg` }, caption: up })
+conn.sendMessage(pushNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/2a06381b260c3f096a612.jpg` }, caption: up })
 
 }
 })
