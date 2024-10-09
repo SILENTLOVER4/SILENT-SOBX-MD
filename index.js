@@ -18,7 +18,7 @@ const qrcode = require('qrcode-terminal')
 const StickersTypes = require('wa-sticker-formatter')
 const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
-const axios require('axios')
+const axios = require('axios')
 const { File } = require('megajs')
 
 const ownerNumber = ['923096287432']
