@@ -108,9 +108,11 @@ mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=maj
 
 `✠ IF U HAVE YOUR REPLIT ACCOUNT SO YOU CAN EASY DEPLOY SILENT-SOBX-MD ON REPLIT CLICK BLACK BUTTON [DEPLOY TO REPLIT] AND FIND CONFIG.JSON FILE THEN PASTE YOUR SESSION AND MONGODB KEY THEN RUN CODE AND ENJOY BOT ✠`
 
+<br>
+
 <p align="left"><a href="https://repl.it/github/SILENTLOVER4/SILENT-SOBX-MD"> <img src="https://img.shields.io/badge/Deploy%20To%20Replit-gray?style=for-the-badge&logo=replit" height="25"/></a></p>
 
-### <br>
+### <br>   ❖DEPLOY_KOYEB❖
 
 <p align="left"><a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2FSILENTLOVER4%2FSILENT-SOBX-MD&branch=main&nameprincegds&builder=dockerfile&env[DATABASE_URL]=&env[SESSION_ID]=your+sessionid+here&env[ALIVE_IMG]=your+image+url&env[ALIVE_MESSAGE]=your+alive+text"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" height="30"/></a></p>
 
