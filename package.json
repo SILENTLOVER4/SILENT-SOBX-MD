@@ -9,7 +9,7 @@
     "restart": "pm2 restart SILENT-SOBX-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
+    "@whiskeysockets/baileys": "6.7.8",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@stablelib/x25519-session": "2.0.0",
     "@types/android-versions": "1.8.3",
@@ -41,7 +41,7 @@
     "megajs": "^1.1.0",
     "vm": "^0.1.0",
     "qrcode-terminal": "^0.12.0",
-    "yt-search":"2.11.1",
+    "yt-search":"2.12.1",
     "api-dylux":"1.8.5",
     "mongoose":"8.5.3",
     "express": "^4.17.1",
