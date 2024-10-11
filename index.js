@@ -112,8 +112,6 @@ if (!mek.message) return
 mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
 if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true"){
 await conn.readMessages([mek.key])
-const reply = 'Hay, your status seen successfully!';
-await conn.sendMessage(mek.key.remoteJid, { text: reply });
 }
 const m = sms(conn, mek)
 const type = getContentType(mek.message)
@@ -176,7 +174,11 @@ if(senderNumber.includes("923154647639")){
 if(isReact) return
 m.react("👑")
 }
-//===========================
+//==========================public react
+if (m.type === 'text' && isReact) {
+  m.react("💖");
+}
+//============================        
         
 //=================================WORKTYPE=========================================== 
 if(!isOwner && config.MODE === "private") return
