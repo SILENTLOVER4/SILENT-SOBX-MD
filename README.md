@@ -112,15 +112,19 @@ mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=maj
 
 <p align="left"><a href="https://repl.it/github/SILENTLOVER4/SILENT-SOBX-MD"> <img src="https://img.shields.io/badge/Deploy%20To%20Replit-gray?style=for-the-badge&logo=replit" height="25"/></a></p>
 
-### <br>   ❖DEPLOY_KOYEB❖
+### <br>   ❖ DEPLOY_KOYEB ❖
 
-`✠ IF YOU HAVE YOUR KOYEB ACCOUNT SO YOU CAN DEPLOY SILENT-SOBX-MD ON KOYEB WITH EASY SETUP NOTR:MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON ✠`
+`✠ IF YOU HAVE YOUR KOYEB ACCOUNT SO YOU CAN DEPLOY SILENT-SOBX-MD ON KOYEB WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON ✠`
 
 <br>
 
 <p align="left"><a href="https://app.koyeb.com/apps/deploy? type=git&repository=github.com%2FSILENTLOVER4%2FSILENT-SOBX-MD&branch=main&nameprincegds&builder=dockerfile&env[DATABASE_URL]=&env[SESSION_ID]=your+sessionid+here&env[ALIVE_IMG]=your+image+url&env[ALIVE_MESSAGE]=your+alive+text"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" height="30"/></a></p>
 
-### <br>
+### <br>  ❖ DEPLOY_RAILWAY ❖
+
+`✠ IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY SILENT-SOBX-MD ON RAILWAY WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON ✠`
+
+<br>
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
@@ -139,14 +143,9 @@ mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=maj
 
 <br>
 
-
-<br>
-
-
-
-<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <br>
 
 ![license](https://img.shields.io/github/license/SILENTLOVER4/SILENT-SOBX-MD?color=green&label=License&style=plastic)
-
