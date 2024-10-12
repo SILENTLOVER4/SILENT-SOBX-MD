@@ -77,12 +77,7 @@ const yt = await dl.youtubedl(anu.url).catch(async () => await dl.youtubedlv2(an
 const yt2 = await dl.youtubedlv2(anu.url)
 if (yt2.video['360p'].fileSizeH.includes('MB') && yt2.video['360p'].fileSizeH.replace(' MB','') >= config.MAX_SIZE) return await conn.sendMessage(from, { text: '*This video too big !!*' }, { quoted: mek });
 if (yt2.video['360p'].fileSizeH.includes('GB')) return await conn.sendMessage(from, { text: '*This video too big !!*' }, { quoted: mek });
-let senda = await conn.sendMessage(from, { video: {url: await yt.video['360p'].download() }, caption: '*╭──────•◈•─────╮*
-*┋*
-➠ *VIDEO BY SILENT-SOBX-MD BOT CREATED BY SILENTLOVER⁴³²*
-   ✦•··•••••••••··•✦
-*┋*
-*╰──────•◈•─────╯*'}, { quoted: mek })  
+let senda = await conn.sendMessage(from, { video: {url: await yt.video['360p'].download() }, caption: '*VIDEO BY SILENT-SOBX-MD*'}, { quoted: mek })  
 await conn.sendMessage(from, { react: { text: '🎥', key: senda.key }})
 
 if (yt2.video['720p'].fileSizeH.includes('MB') && yt2.video['720p'].fileSizeH.replace(' MB','') >= config.MAX_SIZE) return await conn.sendMessage(from, { text: '*This video too big !!*' }, { quoted: mek });
