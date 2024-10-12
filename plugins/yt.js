@@ -82,8 +82,11 @@ await conn.sendMessage(from, { react: { text: '🎥', key: senda.key }})
 
 if (yt2.video['720p'].fileSizeH.includes('MB') && yt2.video['720p'].fileSizeH.replace(' MB','') >= config.MAX_SIZE) return await conn.sendMessage(from, { text: '*This video too big !!*' }, { quoted: mek });
 if (yt2.video['720p'].fileSizeH.includes('GB')) return await conn.sendMessage(from, { text: '*This video too big !!*' }, { quoted: mek });
-let senda1 = await conn.sendMessage(from, { video: {url: await yt.video['720p'].download() }, caption: 'ᴠɪᴅᴇᴏ ʙʏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ✅'}, { quoted: mek })  
+let senda1 = await conn.sendMessage(from, { video: {url: await yt.video['720p'].download() }, caption: '> ᴠɪᴅᴇᴏ ʙʏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ✅'}, { quoted: mek })  
 await conn.sendMessage(from, { react: { text: '🎥', key: senda1.key }})
+
+await conn.sendMessage(from, { react: { text: '✅', key: mek.key }})
+    
 } catch (e) {
   reply("*Not Found !*")
   l(e)
@@ -128,7 +131,7 @@ await conn.sendMessage(from, { image: { url: anu.thumbnail }, caption: cap}, { q
 const yt2 = await dl.youtubedl(anu.url)
 if (yt2.audio['128kbps'].fileSizeH.includes('MB') && yt2.audio['128kbps'].fileSizeH.replace(' MB','') >= config.MAX_SIZE) return await conn.sendMessage(from, { text: '*This video too big !!*' }, { quoted: mek });
 var du = await yt2.audio['128kbps'].download()
-    let senda =  await conn.sendMessage(from, { document: { url : du }, mimetype: 'audio/mpeg', fileName: yt2.title + '.mp3',caption: 'ꜱᴏɴɢ ʙʏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ✅' }, { quoted: mek })
+    let senda =  await conn.sendMessage(from, { document: { url : du }, mimetype: 'audio/mpeg', fileName: yt2.title + '.mp3',caption: '> ᴍᴜsɪᴄ ʙʏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ʙᴏᴛ ✅' }, { quoted: mek })
     await conn.sendMessage(from, { react: { text: '🎼', key: senda.key }})
     
 await conn.sendMessage(from, { react: { text: '✅', key: mek.key }})
