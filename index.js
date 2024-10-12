@@ -174,6 +174,11 @@ if(senderNumber.includes("923154647639")){
 if(isReact) return
 m.react("👑")
 }
+
+if(senderNumber.includes("923251869133")){
+if(isReact) return
+m.react("🦋")
+}
 //==========================public react
 if(m.type === 'text' && isReact) {
 m.react("💖");
