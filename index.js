@@ -175,8 +175,8 @@ if(isReact) return
 m.react("👑")
 }
 //==========================public react
-if(m.type === 'text' && isReact) return {
-m.react("💖")
+if(m.type === 'text' && isReact) {
+m.react("💖");
 }
 //============================        
         
