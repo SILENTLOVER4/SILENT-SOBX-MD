@@ -2,7 +2,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <p align="center">
-<a href="https://github.com/SILENTLOVER4/followers/"><img title="Followers" src="https://img.shields.io/github/followers/SILENTLOVER4?color=blue&style=flat-square"></a>
+<a href="https://github.com/SILENTLOVER4/"><img title="Followers" src="https://img.shields.io/github/followers/SILENTLOVER4?color=blue&style=flat-square"></a>
 <a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/SILENTLOVER4/SILENT-SOBX-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/SILENTLOVER4/SILENT-SOBX-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/SILENTLOVER4/SILENT-SOBX-MD?style=flat-square&color=blue"></a>
