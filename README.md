@@ -1,3 +1,6 @@
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 <p align="center">
 <a href="https://github.com/SILENTLOVER4/followers"><img title="Followers" src="https://img.shields.io/github/followers/SILENTLOVER4?color=blue&style=flat-square"></a>
 <a href="https://github.com/SILENTLOVER4/SILENT-SOBX-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/SILENTLOVER4/SILENT-SOBX-MD?color=blue&style=flat-square"></a>
@@ -8,7 +11,8 @@
 <p align='center'>
 </p>
 
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <div align="center"><br> <img src="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg" /><br>SILENTLOVER432</div>
 
