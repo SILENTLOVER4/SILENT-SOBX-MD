@@ -6,16 +6,15 @@ const { cmd, commands } = require('../command');
 cmd({
   pattern: "updatecmd",
   desc: "Update commands.",
-  react: "🚸",
   category: "owner",
   filename: __filename
-}, async (conn, mek, m, {
+},
+async (conn, mek, m, {
   from,
-  l,
   quoted,
   body,
   isCmd,
-  umarmd,
+  command,
   args,
   q,
   isGroup,
@@ -48,10 +47,7 @@ cmd({
       }
     }
     
-    // Restart bot after updating plugins
-    console.log("Restarting bot...");
-    process.exit(0);
-    
+    reply("Commands updated successfully.");
   } catch (e) {
     console.log(e);
     reply(`Error updating commands: ${e.message}`);
