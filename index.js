@@ -180,9 +180,11 @@ if(isReact) return
 m.react("🦋")
 }
 //==========================public react
-if(m.type === 'text' && isReact) {
-m.react("💖");
-}
+bot.on('message', async (m) => {
+  if (m.type === 'text') {
+    await m.react('💖');
+  }
+});
 //============================        
         
 //=================================WORKTYPE=========================================== 
