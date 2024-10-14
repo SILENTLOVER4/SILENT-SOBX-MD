@@ -111,7 +111,7 @@ mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=maj
 
 <br>
 
-<p align="left">
+<p align="center">
 <a href="https://pair-web-public.koyeb.app/"><img height= "35" title="Author" src="https://img.shields.io/badge/SESSION ID-green?style=for-the-badge&logo=render"></a>
 <p/>
  
