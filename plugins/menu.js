@@ -40,6 +40,7 @@ let madeMenu = `╭━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
 *│╭─────────────···▸*
 *┴│▸*
 *❁│▸* *ʀᴜɴᴛɪᴍᴇ* : ${runtime(process.uptime())}
+*❁│▸* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 *❁│▸* *ɴᴀᴍᴇ ʙᴏᴛ* : *❖sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❖*
 *❁│▸* *ᴄʀᴇᴀᴛᴏʀ* : *➺ѕเℓεɳƭ_ℓσѵε૨࿐*
 *❁│▸* *ᴠᴇʀsɪᴏɴs* : *ᴠ.2.0.0*
