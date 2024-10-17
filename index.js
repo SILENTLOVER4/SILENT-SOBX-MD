@@ -180,10 +180,7 @@ if(isReact) return
 m.react("🦋")
 }
 //==========================public react
-if(botNumber.includes("senderNumber")){
-if(isReact) return
-m.react("💖")
-}
+
 //============================        
         
 //=================================WORKTYPE=========================================== 
