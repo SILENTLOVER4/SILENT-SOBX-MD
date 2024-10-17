@@ -180,7 +180,11 @@ if(isReact) return
 m.react("🦋")
 }
 //==========================public react
-
+if (typeof process.env.Reactions === 'undefined' || process.env.Reactions.toLowerCase() === 'false') return;
+if (m.text.match(/(prince|a|e|i|o|u|g|q|ا|م|dad|gds|oso|love|mente|pero|tion|age|sweet|kiss|cute|ate|and|but|ify)/gi)) {
+let emot = pickRandom(["💖", "❣️"])
+this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
+function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
 //============================        
         
 //=================================WORKTYPE=========================================== 
