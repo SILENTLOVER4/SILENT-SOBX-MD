@@ -12,12 +12,6 @@
       "required": true,
       "value": ""
     },  
-
-    "Reactions": {
-      "description": "Make it false to trun off auto reactions",
-      "required": false,
-      "value": "true"
-    },  
     
     "MONGODB": {
       "description": "you can use this public mongodb url if you have your personal key So you can use him.",
