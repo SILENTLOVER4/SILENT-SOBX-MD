@@ -1,7 +1,7 @@
 const config = require('../config')
 const { cmd, commands } = require('../command')
 
-let antilinkStatus = false
+let antilinkStatus = true
 
 cmd({
   pattern: "antilink",
@@ -54,7 +54,7 @@ cmd({
 })
 
 cmd({
-  pattern: ".+https?:\/\/chat\.whatsapp\.com\/.+",
+  pattern: "^(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_+~#?&//=]*))$",
   type: "regex",
   category: "group",
   react: "🚫",
@@ -88,8 +88,8 @@ cmd({
     if (!antilinkStatus) return
     
     const groupId = from
-    const senderId = quoted.sender
-    const senderName = quoted.pushName
+    const senderId = sender
+    const senderName = pushname
 
     await conn.sendMessage(groupId, `@${senderId} has been removed for sending group link!`, {
       mentions: [senderId]
