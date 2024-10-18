@@ -1,5 +1,8 @@
-const config = require('../config')
-const { cmd, commands } = require('../command')
+const { 
+  conn, 
+  cmd, 
+  commands 
+} = require('../index')
 
 let antilinkStatus = true
 
@@ -7,7 +10,7 @@ cmd({
   pattern: "antilink",
   desc: "Toggle antilink feature",
   category: "group",
-  react: "🚫",
+  react: "🔗",
   filename: __filename
 }, async (conn, mek, m, {
   from,
@@ -47,19 +50,27 @@ cmd({
     } else {
       reply('Invalid argument. Use "on" or "off".')
     }
-    if (!isGroup) return
-    if (!antilinkStatus) return
-    
-    const groupId = from
-    const senderId = sender
-    const senderName = pushname
-
-    await conn.sendMessage(groupId, `@${senderId} has been removed for sending group link!`, {
-      mentions: [senderId]
-    })
-    await conn.groupParticipantsUpdate(groupId, [senderId], 'remove')
   } catch (e) {
     console.log(e)
     reply(`${e}`)
+  }
+})
+
+conn.on('message', async (m) => {
+  try {
+    if (!antilinkStatus) return
+    if (!m.key.remoteJid.endsWith('@g.us')) return
+    if (m.messageStubType === 'group_invite') {
+      const groupId = m.key.remoteJid
+      const senderId = m.participant
+      const senderName = m.pushName
+
+      await conn.sendMessage(groupId, `@${senderId} has been removed for sending group link!`, {
+        mentions: [senderId]
+      })
+      await conn.groupParticipantsUpdate(groupId, [senderId], 'remove')
+    }
+  } catch (e) {
+    console.log(e)
   }
 })
