@@ -2,6 +2,8 @@ const {readEnv} = require('../lib/database')
 const {cmd , commands} = require('../command')
 const os = require("os")
 const {runtime} = require('../lib/functions')
+const axios = require('axios')
+const delay = require('delay')
 
 cmd({
 
