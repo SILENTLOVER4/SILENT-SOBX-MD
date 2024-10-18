@@ -47,43 +47,6 @@ cmd({
     } else {
       reply('Invalid argument. Use "on" or "off".')
     }
-  } catch (e) {
-    console.log(e)
-    reply(`${e}`)
-  }
-})
-
-cmd({
-  pattern: "^(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_+~#?&//=]*))$",
-  type: "regex",
-  category: "group",
-  react: "🚫",
-  filename: __filename
-}, async (conn, mek, m, {
-  from,
-  quoted,
-  body,
-  isCmd,
-  command,
-  args,
-  q,
-  isGroup,
-  sender,
-  senderNumber,
-  botNumber2,
-  botNumber,
-  pushname,
-  isMe,
-  isOwner,
-  groupMetadata,
-  groupName,
-  participants,
-  groupAdmins,
-  isBotAdmins,
-  isAdmins,
-  reply
-}) => {
-  try {
     if (!isGroup) return
     if (!antilinkStatus) return
     
