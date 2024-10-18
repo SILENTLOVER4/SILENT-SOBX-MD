@@ -20,6 +20,7 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
+const { fromBuffer } = require('file-type')
 const bodyparser = require('body-parser')
 const mongoose = require('mongoose')
 
