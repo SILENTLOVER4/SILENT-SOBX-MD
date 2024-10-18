@@ -99,6 +99,15 @@ src="https://cardivo.vercel.app/api?name=SILENT%20LOVER&description=🥂THE%20WO
 ### <br> ❖ DEPLOY AND SESSION METHOD ❖
 <br>
 
+`✠ HOW TO DEPLOY SILENT-SOBX-MD ON HEROKU WATCH VIDEO ✠`
+
+<br>
+
+<p align="center">
+   <a href="https://youtu.be/koyMJgbhJSg?si=x-bXqVOajxOIUj80"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="105">
+    </a>
+</p> 
+
 `✠ IF YOU DON'T HAVE YOUR PRIVATE MONGODB KEY SO YOU CAN USE THIS PUBLIC KEY FOR DEPLOY SILENT-SOBX-MD BOT ✠`
 
 ```
