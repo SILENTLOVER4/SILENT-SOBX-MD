@@ -23,7 +23,7 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 *ʜᴇʀᴇ ɪs ʙᴏᴛ sᴄʀɪᴘᴛ*
 
 ⇩━━━━━━━━❁━━━━━━━━⇩
-╭⊱✫🔮✠sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ🔮✫⊱╮
+╭⊱✫🔮 SILENT-SOBX-MD 🔮✫⊱╮
 │✫ - *📂ʀᴇᴘᴏsɪᴛᴏʀʏ ɴᴀᴍᴇ:* *sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ*
 │✫ - *📃ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:* *❁ᴡᴏʀʟᴅ ʙᴇsᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ❁*
 │✫ - *🛡️ᴏᴡɴᴇʀ:* *sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²*
@@ -31,11 +31,12 @@ let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
 ╰━━━━━━━━━━━━━━━━━╯
 > *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
 
-https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s🔰
+*https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
 
 > *❁ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
 
-https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7🔰
+*https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7*
+
 ❁ ════ ❃•⇆•❃ ════ ❁
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛ_ʟᴏᴠᴇʀ⁴³²*
