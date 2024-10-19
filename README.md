@@ -120,8 +120,21 @@ mongodb+srv://suhail:suhail@clustere.tuhzpez.mongodb.net/?retryWrites=true&w=maj
 <br>
 
 <p align="center">
-<a href="https://web-pair-silent-lover.onrender.com"><img height= "35" title="Author" src="https://img.shields.io/badge/SESSION ID-green?style=for-the-badge&logo=render"></a>
+<a href="https://web-pair-silent-lover.onrender.com"><img height= "35" title="Author" src="https://img.shields.io/badge/SESSION ID:1-red?style=for-the-badge&logo=render"></a>
 <p/>
+
+<br>
+
+`✠ IF UPPER SESSION_ID PAIR NOT WORK IF YOU DON'T GET SESSION_ID IN YOUR INBOX 📬 SO YOU CAN USE THIS PUBLIC SESSION_ID:2 PAIR ✠`
+
+<br>
+
+<p align="center">
+<a href="https://web-pair-silent-lover.onrender.com"><img height= "35" title="Author" src="https://img.shields.io/badge/SESSION ID:2-blue?style=for-the-badge&logo=render"></a>
+<p/>
+
+
+ <br>
  
 ### <br>   ❖ DEPLOY_HEROKU ❖
 
