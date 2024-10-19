@@ -88,11 +88,11 @@ let up = `> *➺sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄ�
 
 > *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
 
-https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s🔰
+*https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
 
 > *❁ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
 
-https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7🔰
+*https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7*
 
 ╭⊱✫🔮 SILENT-SOBX-MD 🔮✫⊱╮
 │✫➠ - *📂REPOSITORY NAME:* SILENT-SOBX-MD
