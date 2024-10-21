@@ -19,7 +19,7 @@ async (conn,mek, m, { from, body, isGroup, isAdmins, isBotAdmins, reply, sender 
         
         if (containsBadWord & config.ANTI_BAD_WORD === 'true') {
           await conn.sendMessage(from, { delete: mek.key }, { quoted: mek });
-          await conn.sendMessage(from, { text: "🚫 ⚠️ 𝐁𝐚𝐝 𝐰𝐨𝐫𝐝𝐬 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐚𝐥𝐥𝐨𝐰𝐞𝐝 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐠𝐫𝐨𝐮𝐩! ⚠️ 🚫" }, { quoted: mek });
+          await conn.sendMessage(from, { text: "🚫 ⚠️BAD WORDS NOT ALLOWED⚠️ 🚫" }, { quoted: mek });
         }
     } catch (error) {
         console.error(error)
@@ -37,7 +37,7 @@ async (conn, mek, m, { from, body, isGroup, isAdmins, isBotAdmins, reply }) => {
         if (!isGroup || isAdmins || !isBotAdmins) return; // Skip if not in group, or sender is admin, or bot is not admin
         if (whatsappLinkPattern.test(body) & config.ANTI_LINK === 'true') {
                   await conn.sendMessage(from, { delete: mek.key }, { quoted: mek });
-                  await conn.sendMessage(from, { text: "⚠️ 𝙒𝘼𝙍𝙉𝙄𝙉𝙂: ‼️ Ｌｉｎｋｓ ａｒｅ ｎｏｔ ａｌｌｏｗｅｄ ｉｎ ｔｈｉｓ ｇｒｏｕｐ 🚫" }, { quoted: mek }); 
+                  await conn.sendMessage(from, { text: "⚠️ LINK NOT ALLOWED IN THIS GROUP 🚫" }, { quoted: mek }); 
         }
     }catch (error) {
         console.error(error)
