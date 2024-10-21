@@ -14,7 +14,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 let setting = `
 *╭──────────────●●►*
- *SILENT-SOBX-MD SETTING* ⚙️
+ *SILENT-SOBX-MD SETTINGS MENU* ⚙️
 *╰──────────────●●►*
 *╭───────────────────●●►*
 *│◈ ALIVE_IMG:* .update ALIVE_IMG: Imgurl 
@@ -31,7 +31,7 @@ let setting = `
 *│◈ ALLWAYS_OFFLINE:* .update ALLWAYS_OFFLINE: false
 *│◈ READ_CMD:* .update READ_CMD: true
 *╰──────────────────●●►*
-> POWERED by ASITHA-MD
+> BY *SILENTLOVER432*
 `;
 return await conn.sendMessage(from,{text:setting },{quoted: mek})
 }catch(e){
