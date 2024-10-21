@@ -110,3 +110,88 @@ reply('*Error !!*')
 l(e)
 }
 })
+
+cmd({
+    pattern: "toptt",
+    react: "🔊",
+    alias: ["toaudio","tomp3"],
+    desc: "convert to audio",
+    category: "convert",
+    use: '.toptt <Reply to video>',
+    filename: __filename
+},
+async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+    let isquotedvid = m.quoted ? (m.quoted.type === 'videoMessage') : m ? (m.type === 'videoMessage') : false
+    if(!isquotedvid) return await reply()
+    let media = m.quoted ? await m.quoted.download() : await m.download()
+    let auddio = await toPTT(media, 'mp4')
+    let senda =  await conn.sendMessage(m.chat, {audio: auddio.options, mimetype:'audio/mpeg'}, {quoted:m})
+    await conn.sendMessage(from, { react: { text: '🎼', key: senda.key }})
+} catch (e) {
+reply('*Error !!*')
+l(e)
+}
+})       
+
+
+
+});
+ cmd({
+    pattern: "img2url",
+    react: "🔗",
+    alias: ["tourl","imgurl","telegraph","imgtourl"],
+    desc: "to convert image to url",
+    category: "convert",
+    use: '.img2url <reply image>',
+    filename: __filename
+},
+async(conn, mek, m,{from, l, prefix, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+    try{
+    const isQuotedViewOnce = m.quoted ? (m.quoted.type === 'viewOnceMessage') : false
+    const isQuotedImage = m.quoted ? ((m.quoted.type === 'imageMessage') || (isQuotedViewOnce ? (m.quoted.msg.type === 'imageMessage') : false)) : false
+    if ((m.type === 'imageMessage') || isQuotedImage) {
+const fileType = require("file-type");
+  var nameJpg = getRandom('');
+  let buff = isQuotedImage ? await m.quoted.download(nameJpg) : await m.download(nameJpg)
+  let type = await fileType.fromBuffer(buff);
+  await fs.promises.writeFile("./" + type.ext, buff);
+  img2url("./" + type.ext).then(async url => {
+    await reply('\n' + url + '\n');
+});
+    } else return reply()
+} catch (e) {
+  reply();
+  l(e);
+}
+}); 
+
+
+cmd({
+    pattern: "trt",
+    desc: "🌍 Translate text between languages",
+    react: "🌐",
+    category: "other",
+    filename: __filename
+},
+async (conn, mek, m, { from, q, reply }) => {
+    try {
+        const args = q.split(' ');
+        if (args.length < 2) return reply("❗ Please provide a language code and text. Usage: .translate [language code] [text]");
+        const targetLang = args[0];
+        const textToTranslate = args.slice(1).join(' ');
+        const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(textToTranslate)}&langpair=en|${targetLang}`;
+        const response = await axios.get(url);
+        const translation = response.data.responseData.translatedText;
+        const translationMessage = `
+🌍 *Translation* 🌍
+🔤 *Original*: ${textToTranslate}
+🔠 *Translated*: ${translation}
+🌐 *Language*: ${targetLang.toUpperCase()}
+*POWERED BY SILENTLOVER432-`;
+        return reply(translationMessage);
+    } catch (e) {
+        console.log(e);
+        return reply("⚠️ An error occurred while translating the text. Please try again later.");
+    }
+});
